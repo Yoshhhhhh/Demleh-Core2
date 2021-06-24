@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "prohibited_stick",
+    "texture": "2",
     "customModelName": "Normal",
     "name": "Prohibited Stick",
     "rarity": "COMMON",
