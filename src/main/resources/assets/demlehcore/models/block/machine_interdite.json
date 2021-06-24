@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/textures",
+    "up": "demlehcore:blocks/6",
+    "north": "demlehcore:blocks/6",
+    "east": "demlehcore:blocks/6",
+    "south": "demlehcore:blocks/6",
+    "west": "demlehcore:blocks/6",
+    "particle": "demlehcore:blocks/textures"
+  }
+}
