@@ -2615,6 +2615,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "machine_interdite"
+    },
+    {
+      "name": "Machineinterditerecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "machineinterditerecipe"
     }
   ],
   "variable_elements": [],

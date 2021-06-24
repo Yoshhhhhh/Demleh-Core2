@@ -2,10 +2,10 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "textures",
+    "texture": "6",
     "textureTop": "6",
     "textureLeft": "6",
-    "textureFront": "6",
+    "textureFront": "textures",
     "textureRight": "6",
     "textureBack": "6",
     "renderType": 10,
