@@ -7,8 +7,6 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.init.Items;
 
-import net.mcreator.demlehcore.item.ItemSmeltModifier;
-import net.mcreator.demlehcore.item.ItemMiniumSmeltHammer;
 import net.mcreator.demlehcore.item.ItemMiniumHammerHead;
 import net.mcreator.demlehcore.item.ItemMiniumHammer;
 import net.mcreator.demlehcore.item.ItemMagmaNugget;
@@ -19,9 +17,7 @@ import net.mcreator.demlehcore.item.ItemEboniteSmeltHammer;
 import net.mcreator.demlehcore.item.ItemEboniteHammerHead;
 import net.mcreator.demlehcore.item.ItemEboniteHammer;
 import net.mcreator.demlehcore.item.ItemEboniteArmor;
-import net.mcreator.demlehcore.item.ItemEboniteApple;
 import net.mcreator.demlehcore.item.ItemAmazoniteApple;
-import net.mcreator.demlehcore.block.BlockEboniteBlock;
 import net.mcreator.demlehcore.block.BlockAmazoniteBlock;
 import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 
@@ -117,84 +113,6 @@ public class ProcedureDemlehMachineProcedure extends ElementsDemlehcoreMod.ModEl
 				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (inv != null && (inv instanceof TileEntityLockableLoot)) {
 					ItemStack _setstack = new ItemStack(ItemAmazoniteApple.block, (int) (1));
-					_setstack.setCount(((new Object() {
-						public int getAmount(BlockPos pos, int sltid) {
-							TileEntity inv = world.getTileEntity(pos);
-							if (inv instanceof TileEntityLockableLoot) {
-								ItemStack stack = ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-								if (stack != null)
-									return stack.getCount();
-							}
-							return 0;
-						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
-					((TileEntityLockableLoot) inv).setInventorySlotContents((int) (3), _setstack);
-				}
-			}
-		}
-		if (((((new Object() {
-			public ItemStack getItemStack(BlockPos pos, int sltid) {
-				TileEntity inv = world.getTileEntity(pos);
-				if (inv instanceof TileEntityLockableLoot)
-					return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-				return ItemStack.EMPTY;
-			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(Items.GOLDEN_APPLE, (int) (1), 0).getItem())
-				&& ((new Object() {
-					public ItemStack getItemStack(BlockPos pos, int sltid) {
-						TileEntity inv = world.getTileEntity(pos);
-						if (inv instanceof TileEntityLockableLoot)
-							return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(BlockEboniteBlock.block, (int) (1))
-						.getItem()))
-				&& (((new Object() {
-					public ItemStack getItemStack(BlockPos pos, int sltid) {
-						TileEntity inv = world.getTileEntity(pos);
-						if (inv instanceof TileEntityLockableLoot)
-							return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(ItemMagmaNugget.block, (int) (1))
-						.getItem()) && (((new Object() {
-							public int getAmount(BlockPos pos, int sltid) {
-								TileEntity inv = world.getTileEntity(pos);
-								if (inv instanceof TileEntityLockableLoot) {
-									ItemStack stack = ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) == 0) || ((new Object() {
-							public ItemStack getItemStack(BlockPos pos, int sltid) {
-								TileEntity inv = world.getTileEntity(pos);
-								if (inv instanceof TileEntityLockableLoot)
-									return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-								return ItemStack.EMPTY;
-							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3)))
-								.getItem() == new ItemStack(ItemEboniteApple.block, (int) (1)).getItem()))))) {
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv instanceof TileEntityLockableLoot)
-					((TileEntityLockableLoot) inv).decrStackSize((int) (0), (int) (1));
-			}
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv instanceof TileEntityLockableLoot)
-					((TileEntityLockableLoot) inv).decrStackSize((int) (1), (int) (1));
-			}
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv instanceof TileEntityLockableLoot)
-					((TileEntityLockableLoot) inv).decrStackSize((int) (2), (int) (1));
-			}
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv != null && (inv instanceof TileEntityLockableLoot)) {
-					ItemStack _setstack = new ItemStack(ItemEboniteApple.block, (int) (1));
 					_setstack.setCount(((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							TileEntity inv = world.getTileEntity(pos);
@@ -426,162 +344,6 @@ public class ProcedureDemlehMachineProcedure extends ElementsDemlehcoreMod.ModEl
 				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (inv != null && (inv instanceof TileEntityLockableLoot)) {
 					ItemStack _setstack = new ItemStack(ItemMiniumHammer.block, (int) (1));
-					_setstack.setCount(((new Object() {
-						public int getAmount(BlockPos pos, int sltid) {
-							TileEntity inv = world.getTileEntity(pos);
-							if (inv instanceof TileEntityLockableLoot) {
-								ItemStack stack = ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-								if (stack != null)
-									return stack.getCount();
-							}
-							return 0;
-						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
-					((TileEntityLockableLoot) inv).setInventorySlotContents((int) (3), _setstack);
-				}
-			}
-		}
-		if (((((new Object() {
-			public ItemStack getItemStack(BlockPos pos, int sltid) {
-				TileEntity inv = world.getTileEntity(pos);
-				if (inv instanceof TileEntityLockableLoot)
-					return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-				return ItemStack.EMPTY;
-			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(ItemMiniumHammer.block, (int) (1)).getItem())
-				&& ((new Object() {
-					public ItemStack getItemStack(BlockPos pos, int sltid) {
-						TileEntity inv = world.getTileEntity(pos);
-						if (inv instanceof TileEntityLockableLoot)
-							return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(ItemSmeltModifier.block, (int) (1))
-						.getItem()))
-				&& (((new Object() {
-					public ItemStack getItemStack(BlockPos pos, int sltid) {
-						TileEntity inv = world.getTileEntity(pos);
-						if (inv instanceof TileEntityLockableLoot)
-							return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(ItemMagmaNugget.block, (int) (1))
-						.getItem()) && (((new Object() {
-							public int getAmount(BlockPos pos, int sltid) {
-								TileEntity inv = world.getTileEntity(pos);
-								if (inv instanceof TileEntityLockableLoot) {
-									ItemStack stack = ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) == 0) || ((new Object() {
-							public ItemStack getItemStack(BlockPos pos, int sltid) {
-								TileEntity inv = world.getTileEntity(pos);
-								if (inv instanceof TileEntityLockableLoot)
-									return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-								return ItemStack.EMPTY;
-							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3)))
-								.getItem() == new ItemStack(ItemMiniumSmeltHammer.block, (int) (1)).getItem()))))) {
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv instanceof TileEntityLockableLoot)
-					((TileEntityLockableLoot) inv).decrStackSize((int) (0), (int) (1));
-			}
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv instanceof TileEntityLockableLoot)
-					((TileEntityLockableLoot) inv).decrStackSize((int) (1), (int) (1));
-			}
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv instanceof TileEntityLockableLoot)
-					((TileEntityLockableLoot) inv).decrStackSize((int) (2), (int) (1));
-			}
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv != null && (inv instanceof TileEntityLockableLoot)) {
-					ItemStack _setstack = new ItemStack(ItemMiniumSmeltHammer.block, (int) (1));
-					_setstack.setCount(((new Object() {
-						public int getAmount(BlockPos pos, int sltid) {
-							TileEntity inv = world.getTileEntity(pos);
-							if (inv instanceof TileEntityLockableLoot) {
-								ItemStack stack = ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-								if (stack != null)
-									return stack.getCount();
-							}
-							return 0;
-						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
-					((TileEntityLockableLoot) inv).setInventorySlotContents((int) (3), _setstack);
-				}
-			}
-		}
-		if (((((new Object() {
-			public ItemStack getItemStack(BlockPos pos, int sltid) {
-				TileEntity inv = world.getTileEntity(pos);
-				if (inv instanceof TileEntityLockableLoot)
-					return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-				return ItemStack.EMPTY;
-			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(ItemEboniteHammer.block, (int) (1)).getItem())
-				&& ((new Object() {
-					public ItemStack getItemStack(BlockPos pos, int sltid) {
-						TileEntity inv = world.getTileEntity(pos);
-						if (inv instanceof TileEntityLockableLoot)
-							return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(ItemSmeltModifier.block, (int) (1))
-						.getItem()))
-				&& (((new Object() {
-					public ItemStack getItemStack(BlockPos pos, int sltid) {
-						TileEntity inv = world.getTileEntity(pos);
-						if (inv instanceof TileEntityLockableLoot)
-							return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(ItemMagmaNugget.block, (int) (1))
-						.getItem()) && (((new Object() {
-							public int getAmount(BlockPos pos, int sltid) {
-								TileEntity inv = world.getTileEntity(pos);
-								if (inv instanceof TileEntityLockableLoot) {
-									ItemStack stack = ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) == 0) || ((new Object() {
-							public ItemStack getItemStack(BlockPos pos, int sltid) {
-								TileEntity inv = world.getTileEntity(pos);
-								if (inv instanceof TileEntityLockableLoot)
-									return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-								return ItemStack.EMPTY;
-							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3)))
-								.getItem() == new ItemStack(ItemEboniteSmeltHammer.block, (int) (1)).getItem()))))) {
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv instanceof TileEntityLockableLoot)
-					((TileEntityLockableLoot) inv).decrStackSize((int) (0), (int) (1));
-			}
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv instanceof TileEntityLockableLoot)
-					((TileEntityLockableLoot) inv).decrStackSize((int) (1), (int) (1));
-			}
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv instanceof TileEntityLockableLoot)
-					((TileEntityLockableLoot) inv).decrStackSize((int) (2), (int) (1));
-			}
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv != null && (inv instanceof TileEntityLockableLoot)) {
-					ItemStack _setstack = new ItemStack(ItemEboniteSmeltHammer.block, (int) (1));
 					_setstack.setCount(((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							TileEntity inv = world.getTileEntity(pos);
