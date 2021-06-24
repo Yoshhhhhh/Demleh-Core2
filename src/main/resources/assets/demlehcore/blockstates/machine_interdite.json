@@ -2,6 +2,29 @@
   "variants": {
     "normal": {
       "model": "demlehcore:machine_interdite"
+    },
+    "facing=north": {
+      "model": "demlehcore:machine_interdite"
+    },
+    "facing=east": {
+      "model": "demlehcore:machine_interdite",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "demlehcore:machine_interdite",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "demlehcore:machine_interdite",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "demlehcore:machine_interdite",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "demlehcore:machine_interdite",
+      "x": 90
     }
   }
 }

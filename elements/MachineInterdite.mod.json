@@ -2,15 +2,15 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "6",
-    "textureTop": "6",
-    "textureLeft": "6",
-    "textureFront": "textures",
-    "textureRight": "6",
-    "textureBack": "6",
+    "texture": "machineinterditeside",
+    "textureTop": "machineinterditeside",
+    "textureLeft": "machineinterditeside",
+    "textureFront": "machineinterditeface",
+    "textureRight": "machineinterditeside",
+    "textureBack": "machineinterditeside",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 2,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -34,14 +34,14 @@
     ],
     "name": "Machine Interdite",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 10.0,
+    "resistance": 20.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Demleh"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -76,10 +76,10 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
-    "spawnParticles": false,
+    "breakHarvestLevel": 8,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "PORTAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,

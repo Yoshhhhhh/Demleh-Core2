@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "demlehcore:blocks/6",
-    "up": "demlehcore:blocks/6",
-    "north": "demlehcore:blocks/textures",
-    "east": "demlehcore:blocks/6",
-    "south": "demlehcore:blocks/6",
-    "west": "demlehcore:blocks/6",
-    "particle": "demlehcore:blocks/6"
+    "down": "demlehcore:blocks/machineinterditeside",
+    "up": "demlehcore:blocks/machineinterditeside",
+    "north": "demlehcore:blocks/machineinterditeface",
+    "east": "demlehcore:blocks/machineinterditeside",
+    "south": "demlehcore:blocks/machineinterditeside",
+    "west": "demlehcore:blocks/machineinterditeside",
+    "particle": "demlehcore:blocks/machineinterditeside"
   }
 }
