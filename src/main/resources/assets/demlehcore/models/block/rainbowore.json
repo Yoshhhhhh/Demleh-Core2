@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/rainbow_ore",
+    "up": "demlehcore:blocks/rainbow_ore",
+    "north": "demlehcore:blocks/rainbow_ore",
+    "east": "demlehcore:blocks/rainbow_ore",
+    "south": "demlehcore:blocks/rainbow_ore",
+    "west": "demlehcore:blocks/rainbow_ore",
+    "particle": "demlehcore:blocks/rainbow_ore"
+  }
+}

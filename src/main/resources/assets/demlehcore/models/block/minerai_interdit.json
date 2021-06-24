@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/mineraiinterdit2",
+    "up": "demlehcore:blocks/mineraiinterdit2",
+    "north": "demlehcore:blocks/mineraiinterdit2",
+    "east": "demlehcore:blocks/mineraiinterdit2",
+    "south": "demlehcore:blocks/mineraiinterdit2",
+    "west": "demlehcore:blocks/mineraiinterdit2",
+    "particle": "demlehcore:blocks/mineraiinterdit2"
+  }
+}

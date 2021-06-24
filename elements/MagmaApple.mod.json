@@ -1,0 +1,26 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "agma_pple",
+    "customModelName": "Normal",
+    "name": "Magma Apple",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Demleh"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 10,
+    "saturation": 8.0,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "MagmaAppleFoodEaten"
+    }
+  }
+}

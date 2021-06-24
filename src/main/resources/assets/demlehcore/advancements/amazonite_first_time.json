@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "title": {
+      "translate": "advancements.amazonite_first_time.title"
+    },
+    "description": {
+      "translate": "advancements.amazonite_first_time.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "amazonite_first_time": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

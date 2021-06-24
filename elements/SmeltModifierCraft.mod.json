@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NuggetMineraiInterdit"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NuggetMineraiInterdit"
+      },
+      {
+        "value": "CUSTOM:BlockInterdit"
+      },
+      {
+        "value": "CUSTOM:NuggetMineraiInterdit"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NuggetMineraiInterdit"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SmeltModifier"
+    },
+    "name": "smelt_modifier_craft",
+    "namespace": "mod"
+  }
+}

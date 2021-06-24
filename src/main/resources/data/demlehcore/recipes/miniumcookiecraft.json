@@ -1,0 +1,16 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cookie"
+    },
+    {
+      "item": "demlehcore:minium"
+    }
+  ],
+  "result": {
+    "item": "demlehcore:miniumcookie",
+    "count": 1
+  }
+}

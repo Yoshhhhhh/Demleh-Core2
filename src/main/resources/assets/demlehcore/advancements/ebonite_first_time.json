@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "demlehcore:ebonite"
+    },
+    "title": {
+      "translate": "advancements.ebonite_first_time.title"
+    },
+    "description": {
+      "translate": "advancements.ebonite_first_time.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ebonite_first_time": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "demlehcore:amazonite_first_time"
+}

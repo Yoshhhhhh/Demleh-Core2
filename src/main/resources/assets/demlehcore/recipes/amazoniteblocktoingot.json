@@ -1,0 +1,13 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demlehcore:amazoniteblock"
+    }
+  ],
+  "result": {
+    "item": "demlehcore:amazoniteingot",
+    "count": 9
+  }
+}

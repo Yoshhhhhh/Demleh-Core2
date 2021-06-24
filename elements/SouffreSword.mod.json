@@ -1,0 +1,27 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "souffre_sword",
+    "customModelName": "Normal",
+    "name": "Souffre Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Demleh"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 8.0,
+    "enchantability": 6,
+    "damageVsEntity": 9.5,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

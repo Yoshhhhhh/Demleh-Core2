@@ -1,0 +1,2950 @@
+{
+  "id_map": {
+    "ENTITY": 5,
+    "GUI": 7
+  },
+  "mod_elements": [
+    {
+      "name": "Amazoniteore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Souffre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "EboniteOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "AmazoniteIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreNugget",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Souffrenuggetcraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Minium",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Miniumcraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Ebonite",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Ebonitecraft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmazoniteArmor",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MiniumArmor",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EboniteArmor",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SouffreArmor",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AmazoniteHelmet",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmazoniteChestplate",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmazoniteLeggings",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmazoniteBoots",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreHelmet",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreChestplate",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreLeggings",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreBoots",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumHelmet",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumChestplate",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumLeggings",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumBoots",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteHelmet",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteChestplate",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteLeggings",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteBoots",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumCookieFoodEaten",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MiniumCookie",
+      "type": "food",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumCookieCraft",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Amazonitepickaxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffrePickaxe",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumPickaxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbonitePickaxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmazonitePickCraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffrePickCraft",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumPickCraft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbonitePickCraft",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmazoniteBlock",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CreeperEggCraft",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmazoniteBlockCraft",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreBlock",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreBlockCraft",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumBlock",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumBlockCraft",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteBlock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteBlockCraft",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmazoniteSword",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreSword",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumSword",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteSword",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmazoniteSwordCraft",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreSwordCraft",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumSwordCraft",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteSwordCraft",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreStick",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreStickCraft",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteSuperAxe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackObsidian",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackObsidianCraft",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HamburgerFoodEaten2",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hamburger",
+      "type": "food",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BurgerCraft",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Burgercraft2",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagmaNugget",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Magma",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagmaOre",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagmaCraft",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmazoniteAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmazoniteApple",
+      "type": "food",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagmaAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagmaApple",
+      "type": "food",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EboniteApple",
+      "type": "food",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteMachine",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboMachineRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteHead",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboMachineProcedure",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EboMachineGUI",
+      "type": "gui",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "OpenEboMachineGUI",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EboniteHeadCraft",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboCraftingTable",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboCraftingtableCraft",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Feeder",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FeederProcedure",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FeederCraft",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YG",
+      "type": "musicdisc",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoodMusic",
+      "type": "musicdisc",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RickrollCraft",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RainbowOre",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RainbowIngot",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RainbowIngotSmelt",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RainbowBlock",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RainbowOreCraft",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RainbowBlockCraft",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmazoniteBlockToIngot",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SouffreBlockToNugget",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MiniumBlockToIngot",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EboniteBlockToEbonite",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Demleh",
+      "type": "tab",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dynamite",
+      "type": "gun",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "DynamiteProcedure",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DynamiteEntity",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DynamiteCraft",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BigDynamiteProcedure",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BigDynamiteEntity",
+      "type": "item",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BigDynamite",
+      "type": "gun",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      }
+    },
+    {
+      "name": "DynamiteProcedure2",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BigDynamiteProcedure2",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BigDynamiteCraft",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackObsiPhase2",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackObsiPhase3",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackObsiPhase1A2",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackObsiPhase2A3",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmazoniteProcedure",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagmaProcedure",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XPBreakBlackObsi",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EboniteBreakNotify",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SouffreXP",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffre_xp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MiniumXP",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_xp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EboniteXP",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_xp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EboniteFirstTime",
+      "type": "achievement",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_first_time"
+    },
+    {
+      "name": "EboniteAchievement",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_achievement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmazoniteFirstTime",
+      "type": "achievement",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_first_time"
+    },
+    {
+      "name": "AmazoniteAchievement",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_achievement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SouffreFirstTime",
+      "type": "achievement",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffre_first_time"
+    },
+    {
+      "name": "SouffreProcedure",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffre_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MiniumFirstTime",
+      "type": "achievement",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_first_time"
+    },
+    {
+      "name": "MiniumAchievement",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_achievement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DemlehMachine",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "demleh_machine"
+    },
+    {
+      "name": "DemlehMachineGUI",
+      "type": "gui",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      },
+      "registry_name": "demleh_machine_gui"
+    },
+    {
+      "name": "OpenDemlehMachine",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_demleh_machine",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DemlehMachineProcedure",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "demleh_machine_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DemlehMachineCraft",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "demleh_machine_craft"
+    },
+    {
+      "name": "HammerProcedure",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MiniumHammer",
+      "type": "tool",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_hammer"
+    },
+    {
+      "name": "EboniteHammer",
+      "type": "tool",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_hammer"
+    },
+    {
+      "name": "MiniumSmeltHammer",
+      "type": "tool",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_smelt_hammer"
+    },
+    {
+      "name": "EboniteSmeltHammer",
+      "type": "tool",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_smelt_hammer"
+    },
+    {
+      "name": "HammerSmeltProcedure",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_smelt_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HammerSmeltProcedure2",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_smelt_procedure_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MiniumHammerHead",
+      "type": "item",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_hammer_head"
+    },
+    {
+      "name": "EboniteHammerHead",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_hammer_head"
+    },
+    {
+      "name": "MiniumHammerHeadCraft",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_hammer_head_craft"
+    },
+    {
+      "name": "EboniteHammerHeadCraft",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_hammer_head_craft"
+    },
+    {
+      "name": "SmeltModifier",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelt_modifier"
+    },
+    {
+      "name": "SmeltModifierCraft",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelt_modifier_craft"
+    },
+    {
+      "name": "MagmaHelmet",
+      "type": "armor",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_helmet",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "MagmaHelmetProcedure",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_helmet_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmazoniteAxe",
+      "type": "tool",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_axe"
+    },
+    {
+      "name": "AmazoniteShovel",
+      "type": "tool",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_shovel"
+    },
+    {
+      "name": "SouffreAxe",
+      "type": "tool",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffre_axe"
+    },
+    {
+      "name": "SouffreShovel",
+      "type": "tool",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffre_shovel"
+    },
+    {
+      "name": "MiniumAxe",
+      "type": "tool",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_axe"
+    },
+    {
+      "name": "MiniumShovel",
+      "type": "tool",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_shovel"
+    },
+    {
+      "name": "EboniteAxe",
+      "type": "tool",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_axe"
+    },
+    {
+      "name": "EboniteShovel",
+      "type": "tool",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_shovel"
+    },
+    {
+      "name": "MagmaFuel",
+      "type": "fuel",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_fuel"
+    },
+    {
+      "name": "XPBushStage0",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_bush_stage_0"
+    },
+    {
+      "name": "XPBushStage1",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_bush_stage_1"
+    },
+    {
+      "name": "XPBushStage2",
+      "type": "block",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_bush_stage_2"
+    },
+    {
+      "name": "XPBushStage3",
+      "type": "block",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_bush_stage_3"
+    },
+    {
+      "name": "XPBushStage1UpdateTick",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_bush_stage_1_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XPBerry",
+      "type": "food",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_berry"
+    },
+    {
+      "name": "XPBushOnRightClick",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_bush_on_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XPBerryOnFoodEaten",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_berry_on_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmazoniteAxeCraft",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_axe_craft"
+    },
+    {
+      "name": "AmazoniteAxeCraft2",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_axe_craft_2"
+    },
+    {
+      "name": "AmazoniteShovelCraft",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_shovel_craft"
+    },
+    {
+      "name": "SouffreAxeCraft",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffre_axe_craft"
+    },
+    {
+      "name": "SouffreAxeCraft2",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffre_axe_craft_2"
+    },
+    {
+      "name": "SouffreShovelCraft",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffre_shovel_craft"
+    },
+    {
+      "name": "MiniumAxeCraft",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_axe_craft"
+    },
+    {
+      "name": "MiniumAxeCraft2",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_axe_craft_2"
+    },
+    {
+      "name": "MiniumShovelCraft",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_shovel_craft"
+    },
+    {
+      "name": "EboniteAxeCraft",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_axe_craft"
+    },
+    {
+      "name": "EboniteAxeCraft2",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_axe_craft_2"
+    },
+    {
+      "name": "EboniteShovelCraft",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_shovel_craft"
+    },
+    {
+      "name": "UnclaimFinderProcedure",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unclaim_finder_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadarCore",
+      "type": "item",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "radar_core"
+    },
+    {
+      "name": "RadarCoreCraft",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "radar_core_craft"
+    },
+    {
+      "name": "BaseDetectorCraft",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "base_detector_craft"
+    },
+    {
+      "name": "BaseDetector",
+      "type": "tool",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "base_detector"
+    },
+    {
+      "name": "MiniumChest",
+      "type": "block",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_chest"
+    },
+    {
+      "name": "EboniteChest",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_chest"
+    },
+    {
+      "name": "MiniumChestGUI",
+      "type": "gui",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 3
+      },
+      "registry_name": "minium_chest_gui"
+    },
+    {
+      "name": "ChestSoundOpenProcedure",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chest_sound_open_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChestSoundCloseProcedure",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chest_sound_close_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EboniteChestGUI",
+      "type": "gui",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 4
+      },
+      "registry_name": "ebonite_chest_gui"
+    },
+    {
+      "name": "AmazoniteChest",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_chest"
+    },
+    {
+      "name": "SouffreChest",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffre_chest"
+    },
+    {
+      "name": "AmazoniteChestGUI",
+      "type": "gui",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 5
+      },
+      "registry_name": "amazonite_chest_gui"
+    },
+    {
+      "name": "SouffreChestGUI",
+      "type": "gui",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 7
+      },
+      "registry_name": "souffre_chest_gui"
+    },
+    {
+      "name": "AmazoniteChestCraft",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_chest_craft"
+    },
+    {
+      "name": "SouffreChestCraft",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffre_chest_craft"
+    },
+    {
+      "name": "MiniumChestCraft",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minium_chest_craft"
+    },
+    {
+      "name": "EboniteChestCraft",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_chest_craft"
+    },
+    {
+      "name": "EboniteCollector",
+      "type": "tool",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_collector"
+    },
+    {
+      "name": "NuggetMineraiInterdit",
+      "type": "item",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nugget_minerai_interdit"
+    },
+    {
+      "name": "MineraiInterdit",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minerai_interdit"
+    },
+    {
+      "name": "EpeeInterditeProcedure",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epee_interdite_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EpeeInterditeProcedure2",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epee_interdite_procedure_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EpeeInterdite",
+      "type": "gun",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5
+      },
+      "registry_name": "epee_interdite"
+    },
+    {
+      "name": "MineraiInterditBreakNotify",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minerai_interdit_break_notify",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MineraiInterditHurtProcedure",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minerai_interdit_hurt_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockInterdit",
+      "type": "block",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_interdit"
+    },
+    {
+      "name": "CraftBlockInterdit",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_block_interdit"
+    },
+    {
+      "name": "EpeeInterditeProcedure3",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epee_interdite_procedure_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SharpnessModifier",
+      "type": "item",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sharpness_modifier"
+    },
+    {
+      "name": "ProhibitedStick",
+      "type": "item",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prohibited_stick"
+    },
+    {
+      "name": "StickRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stick_recipe"
+    },
+    {
+      "name": "ModifierRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "modifier_recipe"
+    },
+    {
+      "name": "EpeeInterditeRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epee_interdite_recipe"
+    },
+    {
+      "name": "EboniteCollectorHead",
+      "type": "item",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_collector_head"
+    },
+    {
+      "name": "EboniteCollectorRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_collector_recipe"
+    },
+    {
+      "name": "EboniteCollectorStick",
+      "type": "item",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_collector_stick"
+    },
+    {
+      "name": "EboniteCollectorStickRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_collector_stick_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "yg",
+      "files": [
+        "yg"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "rickroll",
+      "files": [
+        "rickroll"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "t-kt",
+      "files": [
+        "tkt"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "rickroll2",
+      "files": [
+        "rickroll"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "rickroll3",
+      "files": [
+        "rickroll3"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "rickroll4",
+      "files": [
+        "rickroll"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "rickroll5",
+      "files": [
+        "rickroll5"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "yoshihurt",
+      "files": [
+        "hurt"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "yoshideath",
+      "files": [
+        "death"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "chest_open",
+      "files": [
+        "chest_open"
+      ],
+      "category": "block",
+      "subtitle": "chest opening sound"
+    },
+    {
+      "name": "chest_close",
+      "files": [
+        "chest_close"
+      ],
+      "category": "block",
+      "subtitle": "chest close sound"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.demlehcore.xp_berry": "XP Berry",
+      "item.record.yg.desc": ":)",
+      "item.demlehcore.ebonite_axe": "Ebonite axe",
+      "item.bigdynamiteentity.name": "Big Dynamite Entity",
+      "block.demlehcore.demleh_machine": "Demleh Machine",
+      "item.epee_interdite.name": "Épée Interdite",
+      "item.radar_core.name": "Radar Core",
+      "block.demlehcore.souffre": "Souffre Ore",
+      "item.demlehcore.eboniteapple": "Ebonite Apple",
+      "item.ebonitearmorboots.name": "Ebonite Boots",
+      "item.minium_axe.name": "Minium axe",
+      "item.demlehcore.ebonitearmorboots": "Ebonite Boots",
+      "item.souffrestick.name": "Souffre Stick",
+      "item.demlehcore.souffrenugget": "Souffre Nugget",
+      "tile.ebonitemachine.name": "Ebonite Machine",
+      "item.amazonitearmorhelmet.name": "Amazonite Helmet",
+      "block.demlehcore.blackobsiphase3": "Black Obsi Phase3",
+      "block.demlehcore.blackobsiphase2": "Black Obsi Phase2",
+      "tile.ebocraftingtable.name": "Ebo Crafting Table",
+      "tile.blackobsiphase3.name": "Black Obsi Phase3",
+      "block.demlehcore.feeder": "Feeder",
+      "item.demlehcore.hamburger": "Hamburger",
+      "item.ebonitearmorlegs.name": "Ebonite Leggings",
+      "item.ebonite_axe.name": "Ebonite axe",
+      "tile.amazoniteore.name": "Amazonite Ore",
+      "item.demlehcore.minium_shovel": "Minium shovel",
+      "item.demlehcore.miniumcookie": "Minium Cookie",
+      "item.dynamiteentity.name": "Dynamite Entity",
+      "tile.ebonite_chest.name": "Ebonite Chest",
+      "item.amazonitearmorboots.name": "Amazonite Boots",
+      "item.demlehcore.ebonitearmorhelmet": "Ebonite Helmet",
+      "block.demlehcore.miniumblock": "Minium Block",
+      "advancements.minium_first_time.descr": "Almost there!",
+      "item.demlehcore.amazonitearmor_chestplate": "Amazonite Chestplate",
+      "item.demlehcore.souffrearmorboots": "Souffre Boots",
+      "item.nugget_minerai_interdit.name": "Nugget interdit",
+      "tile.eboniteore.name": "Ebonite Ore",
+      "item.demlehcore.miniumsword": "Minium Sword",
+      "item.demlehcore.miniumarmorboots": "Minium Boots",
+      "item.demlehcore.rainbowingot": "Rainbow Ingot",
+      "item.base_detector.name": "Base Detector",
+      "advancements.minium_first_time.title": "Minium found!",
+      "block.demlehcore.ebocraftingtable": "Ebo Crafting Table",
+      "item.demlehcore.souffrearmor_chestplate": "Souffre Chestplate",
+      "item.magmanugget.name": "Magma Nugget",
+      "item.miniumcookie.name": "Minium Cookie",
+      "item.demlehcore.souffrearmorlegs": "Souffre Leggings",
+      "advancements.souffre_first_time.title": "Souffre found!",
+      "item.demlehcore.magma_helmet_leggings": "Magma Helmet Leggings",
+      "item.demlehcore.bigdynamite": "Big Dynamite",
+      "tile.xp_bush_stage_0.name": "XP Bush",
+      "item.demlehcore.ebonitearmor_chestplate": "Ebonite Chestplate",
+      "item.demlehcore.ebonitearmor_boots": "Ebonite Boots",
+      "item.demlehcore.radar_core": "Radar Core",
+      "block.demlehcore.eboniteblock": "Ebonite Block",
+      "tile.xp_bush_stage_3.name": "XP Bush Stage 3",
+      "item.demlehcore.minium_hammer": "Minium Hammer",
+      "item.miniumarmorbody.name": "Minium Chestplate",
+      "block.demlehcore.blackobsidian": "Black Obsidian",
+      "item.demlehcore.amazonite_shovel": "Amazonite shovel",
+      "item.souffrenugget.name": "Souffre Nugget",
+      "block.demlehcore.rainbowore": "Rainbow Ore",
+      "item.ebonite_collector_stick.name": "Ebonite Collector Stick",
+      "subtitles.chest_open": "chest opening sound",
+      "item.demlehcore.minium": "Minium",
+      "item.minium_shovel.name": "Minium shovel",
+      "item.ebonitehead.name": "Ebonite Head",
+      "item.amazonite_shovel.name": "Amazonite shovel",
+      "block.demlehcore.magmaore": "Magma Ore",
+      "item.demlehcore.dynamiteentity": "Dynamite Entity",
+      "item.demlehcore.miniumarmor_helmet": "Minium Helmet",
+      "tile.eboniteblock.name": "Ebonite Block",
+      "item.xp_berry.name": "XP Berry",
+      "block.demlehcore.minerai_interdit": "Minerai Interdit",
+      "item.miniumpickaxe.name": "Minium Pickaxe",
+      "item.demlehcore.souffrearmor_helmet": "Souffre Helmet",
+      "item.demlehcore.ebonite_hammer": "Ebonite Hammer",
+      "item.demlehcore.magma_helmet_helmet": "Magma Helmet",
+      "item.demlehcore.ebonite_smelt_hammer": "Ebonite Smelt Hammer",
+      "item.sharpness_modifier.name": "Sharpness Modifier",
+      "item.souffre_shovel.name": "Souffre shovel",
+      "item.ebonite_shovel.name": "Ebonite shovel",
+      "item.ebonitesword.name": "Ebonite Sword",
+      "tile.souffre_chest.name": "Souffre Chest",
+      "block.demlehcore.miniumore": "Minium Ore",
+      "item.demlehcore.epee_interdite": "Épée Interdite",
+      "item.minium_smelt_hammer.name": "Minium Smelt Hammer",
+      "item.amazonite_axe.name": "Amazonite axe",
+      "tile.demleh_machine.name": "Demleh Machine",
+      "item.miniumarmorlegs.name": "Minium Leggings",
+      "advancements.amazonite_first_time.title": "Amazonite Found!",
+      "item.demlehcore.miniumarmor_boots": "Minium Boots",
+      "item.goodmusic.name": "Good Music",
+      "item.demlehcore.miniumarmorbody": "Minium Chestplate",
+      "item.demlehcore.ebonitesuperaxe": "Ebonite Super Axe",
+      "tile.souffreblock.name": "Souffre Block",
+      "block.demlehcore.amazoniteblock": "Amazonite Block",
+      "block.demlehcore.amazoniteore": "Amazonite Ore",
+      "tile.souffre.name": "Souffre Ore",
+      "item.eboniteapple.name": "Ebonite Apple",
+      "item.minium_hammer_head.name": "Minium Hammer Head",
+      "item.ebonite_collector_head.name": "Ebonite Collector Head",
+      "item.demlehcore.ebonitearmorbody": "Ebonite Chestplate",
+      "item.demlehcore.amazonitearmor_helmet": "Amazonite Helmet",
+      "item.dynamite.name": "Dynamite",
+      "tile.amazoniteblock.name": "Amazonite Block",
+      "tile.minerai_interdit.name": "Minerai Interdit",
+      "item.yg.name": "amazingmusic",
+      "item.demlehcore.amazoniteingot": "Amazonite Ingot",
+      "item.demlehcore.souffrearmorbody": "Souffre Chestplate",
+      "item.demlehcore.magmaapple": "Magma Apple",
+      "item.demlehcore.goodmusic.desc": "....:)",
+      "tile.rainbowblock.name": "Rainbow Block",
+      "item.demlehcore.miniumpickaxe": "Minium Pickaxe",
+      "tile.block_interdit.name": "Block Interdit",
+      "subtitles.chest_close": "chest close sound",
+      "item.demlehcore.ebonitepickaxe": "Ebonite Pickaxe",
+      "item.demlehcore.amazonitearmor_boots": "Amazonite Boots",
+      "item.demlehcore.dynamite": "Dynamite",
+      "item.magma_helmethelmet.name": "Magma Helmet",
+      "block.demlehcore.ebonitemachine": "Ebonite Machine",
+      "item.amazonitearmorbody.name": "Amazonite Chestplate",
+      "item.souffresword.name": "Souffre Sword",
+      "item.demlehcore.souffrearmor_leggings": "Souffre Leggings",
+      "item.ebonite_hammer.name": "Ebonite Hammer",
+      "item.bigdynamite.name": "Big Dynamite",
+      "block.demlehcore.rainbowblock": "Rainbow Block",
+      "item.amazonitepickaxe.name": "Amazonite pickaxe",
+      "item.demlehcore.minium_smelt_hammer": "Minium Smelt Hammer",
+      "item.demlehcore.amazonitearmor_leggings": "Amazonite Leggings",
+      "item.minium.name": "Minium",
+      "item.amazoniteingot.name": "Amazonite Ingot",
+      "advancements.ebonite_first_time.title": "Ebonite Found!",
+      "item.demlehcore.amazonitepickaxe": "Amazonite pickaxe",
+      "item.demlehcore.miniumarmor_leggings": "Minium Leggings",
+      "item.demlehcore.souffrearmorhelmet": "Souffre Helmet",
+      "item.demlehcore.ebonite_collector": "Ebonite Collector",
+      "item.demlehcore.magma_helmet_chestplate": "Magma Helmet Body",
+      "item.miniumarmorboots.name": "Minium Boots",
+      "item.demlehcore.ebonitearmor_leggings": "Ebonite Leggings",
+      "item.demlehcore.souffre_shovel": "Souffre shovel",
+      "item.prohibited_stick.name": "Prohibited Stick",
+      "item.demlehcore.miniumarmorhelmet": "Minium Helmet",
+      "item.demlehcore.ebonitearmor_helmet": "Ebonite Helmet",
+      "item.miniumsword.name": "Minium Sword",
+      "block.demlehcore.souffre_chest": "Souffre Chest",
+      "item.demlehcore.souffrestick": "Souffre Stick",
+      "tile.blackobsiphase2.name": "Black Obsi Phase2",
+      "block.demlehcore.souffreblock": "Souffre Block",
+      "item.demlehcore.magma_helmet_boots": "Magma Helmet Boots",
+      "item.demlehcore.amazoniteapple": "Amazonite Apple",
+      "item.demlehcore.goodmusic": "Good Music",
+      "item.demlehcore.miniumarmorlegs": "Minium Leggings",
+      "item.demlehcore.magma": "Magma",
+      "item.ebonitearmorbody.name": "Ebonite Chestplate",
+      "item.ebonite.name": "Ebonite",
+      "item.souffrepickaxe.name": "Souffre Pickaxe",
+      "tile.miniumore.name": "Minium Ore",
+      "item.demlehcore.yg.desc": ":)",
+      "item.demlehcore.ebonitearmorlegs": "Ebonite Leggings",
+      "item.ebonite_hammer_head.name": "Ebonite Hammer Head",
+      "block.demlehcore.eboniteore": "Ebonite Ore",
+      "item.minium_hammer.name": "Minium Hammer",
+      "item.ebonite_collector.name": "Ebonite Collector",
+      "item.demlehcore.amazonitearmorlegs": "Amazonite Leggings",
+      "item.ebonite_smelt_hammer.name": "Ebonite Smelt Hammer",
+      "item.demlehcore.souffre_axe": "Souffre axe",
+      "item.demlehcore.amazonitearmorbody": "Amazonite Chestplate",
+      "item.magmaapple.name": "Magma Apple",
+      "item.demlehcore.minium_axe": "Minium axe",
+      "item.demlehcore.bigdynamiteentity": "Big Dynamite Entity",
+      "item.ebonitepickaxe.name": "Ebonite Pickaxe",
+      "item.demlehcore.minium_hammer_head": "Minium Hammer Head",
+      "tile.xp_bush_stage_2.name": "XP Bush Stage 2",
+      "item.demlehcore.amazonitearmorboots": "Amazonite Boots",
+      "tile.xp_bush_stage_1.name": "XP Bush Stage 1",
+      "item.demlehcore.yg": "amazingmusic",
+      "tile.amazonite_chest.name": "Amazonite Chest",
+      "item.demlehcore.ebonite_shovel": "Ebonite shovel",
+      "block.demlehcore.block_interdit": "Block Interdit",
+      "item.magma.name": "Magma",
+      "tile.miniumblock.name": "Minium Block",
+      "item.demlehcore.ebonitehead": "Ebonite Head",
+      "item.ebonitesuperaxe.name": "Ebonite Super Axe",
+      "item.demlehcore.ebonite_hammer_head": "Ebonite Hammer Head",
+      "tile.magmaore.name": "Magma Ore",
+      "item.smelt_modifier.name": "Smelt Modifier",
+      "item.magma_helmetbody.name": "Magma Helmet Body",
+      "item.demlehcore.amazonitesword": "Amazonite Sword",
+      "block.demlehcore.minium_chest": "Minium Chest",
+      "advancements.souffre_first_time.descr": "Up in the mountains!",
+      "item.demlehcore.souffrepickaxe": "Souffre Pickaxe",
+      "item.hamburger.name": "Hamburger",
+      "item.souffre_axe.name": "Souffre axe",
+      "advancements.amazonite_first_time.descr": "Upgrade from diamond!",
+      "item.demlehcore.amazonite_axe": "Amazonite axe",
+      "block.demlehcore.ebonite_chest": "Ebonite Chest",
+      "item.amazonitesword.name": "Amazonite Sword",
+      "tile.blackobsidian.name": "Black Obsidian",
+      "block.demlehcore.xp_bush_stage_3": "XP Bush Stage 3",
+      "block.demlehcore.xp_bush_stage_2": "XP Bush Stage 2",
+      "block.demlehcore.xp_bush_stage_1": "XP Bush Stage 1",
+      "item.demlehcore.magmanugget": "Magma Nugget",
+      "block.demlehcore.xp_bush_stage_0": "XP Bush",
+      "tile.rainbowore.name": "Rainbow Ore",
+      "item.magma_helmetboots.name": "Magma Helmet Boots",
+      "itemGroup.tabdemleh": "Demleh",
+      "item.demlehcore.souffrearmor_boots": "Souffre Boots",
+      "tile.minium_chest.name": "Minium Chest",
+      "item.demlehcore.ebonite": "Ebonite",
+      "item.souffrearmorlegs.name": "Souffre Leggings",
+      "item.souffrearmorbody.name": "Souffre Chestplate",
+      "item.demlehcore.souffresword": "Souffre Sword",
+      "item.demlehcore.miniumarmor_chestplate": "Minium Chestplate",
+      "item.miniumarmorhelmet.name": "Minium Helmet",
+      "item.amazoniteapple.name": "Amazonite Apple",
+      "item.demlehcore.smelt_modifier": "Smelt Modifier",
+      "item.demlehcore.amazonitearmorhelmet": "Amazonite Helmet",
+      "tile.feeder.name": "Feeder",
+      "item.amazonitearmorlegs.name": "Amazonite Leggings",
+      "item.demlehcore.ebonitesword": "Ebonite Sword",
+      "advancements.ebonite_first_time.descr": "Best of the best!",
+      "item.demlehcore.nugget_minerai_interdit": "Nugget interdit",
+      "item.magma_helmetlegs.name": "Magma Helmet Leggings",
+      "item.souffrearmorhelmet.name": "Souffre Helmet",
+      "block.demlehcore.amazonite_chest": "Amazonite Chest",
+      "item.souffrearmorboots.name": "Souffre Boots",
+      "item.rainbowingot.name": "Rainbow Ingot",
+      "item.ebonitearmorhelmet.name": "Ebonite Helmet",
+      "item.record.goodmusic.desc": "....:)"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "demlehcore",
+    "modName": "DemlehCore",
+    "version": "1.0.0",
+    "author": "DashSuperCraft,",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.demlehcore",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

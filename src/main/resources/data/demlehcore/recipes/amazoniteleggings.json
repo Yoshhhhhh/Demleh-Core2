@@ -1,0 +1,36 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "1": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "2": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "3": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "5": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "6": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "8": {
+      "item": "demlehcore:amazoniteingot"
+    }
+  },
+  "result": {
+    "item": "demlehcore:amazonitearmorlegs",
+    "count": 1
+  }
+}

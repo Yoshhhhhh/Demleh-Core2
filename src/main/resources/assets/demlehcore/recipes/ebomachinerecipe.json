@@ -1,0 +1,42 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:magma"
+    },
+    "1": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "2": {
+      "item": "demlehcore:magma"
+    },
+    "3": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "4": {
+      "item": "demlehcore:ebocraftingtable"
+    },
+    "5": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "6": {
+      "item": "demlehcore:magma"
+    },
+    "7": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "8": {
+      "item": "demlehcore:magma"
+    }
+  },
+  "result": {
+    "item": "demlehcore:ebonitemachine",
+    "count": 1
+  }
+}

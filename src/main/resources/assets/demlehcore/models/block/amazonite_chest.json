@@ -1,0 +1,8 @@
+{
+  "parent": "demlehcore:custom/amazonite_chest",
+  "textures": {
+    "all": "demlehcore:blocks/amazonite_chest",
+    "particle": "demlehcore:blocks/amazonite_chest",
+    "2": "demlehcore:blocks/amazonite_chest"
+  }
+}

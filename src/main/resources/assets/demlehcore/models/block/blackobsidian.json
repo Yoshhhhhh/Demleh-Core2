@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/lack_bsidian",
+    "up": "demlehcore:blocks/lack_bsidian",
+    "north": "demlehcore:blocks/lack_bsidian",
+    "east": "demlehcore:blocks/lack_bsidian",
+    "south": "demlehcore:blocks/lack_bsidian",
+    "west": "demlehcore:blocks/lack_bsidian",
+    "particle": "demlehcore:blocks/lack_bsidian"
+  }
+}

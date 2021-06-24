@@ -1,0 +1,13 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demlehcore:miniumblock"
+    }
+  ],
+  "result": {
+    "item": "demlehcore:minium",
+    "count": 9
+  }
+}

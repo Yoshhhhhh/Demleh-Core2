@@ -1,0 +1,103 @@
+{
+  "yg": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "demlehcore:yg",
+        "stream": true
+      }
+    ]
+  },
+  "rickroll": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "demlehcore:rickroll",
+        "stream": false
+      }
+    ]
+  },
+  "t-kt": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "demlehcore:tkt",
+        "stream": false
+      }
+    ]
+  },
+  "rickroll2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "demlehcore:rickroll",
+        "stream": false
+      }
+    ]
+  },
+  "rickroll3": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "demlehcore:rickroll3",
+        "stream": false
+      }
+    ]
+  },
+  "rickroll4": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "demlehcore:rickroll",
+        "stream": false
+      }
+    ]
+  },
+  "rickroll5": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "demlehcore:rickroll5",
+        "stream": false
+      }
+    ]
+  },
+  "yoshihurt": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "demlehcore:hurt",
+        "stream": false
+      }
+    ]
+  },
+  "yoshideath": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "demlehcore:death",
+        "stream": false
+      }
+    ]
+  },
+  "chest_open": {
+    "category": "block",
+    "subtitle": "subtitles.chest_open",
+    "sounds": [
+      {
+        "name": "demlehcore:chest_open",
+        "stream": false
+      }
+    ]
+  },
+  "chest_close": {
+    "category": "block",
+    "subtitle": "subtitles.chest_close",
+    "sounds": [
+      {
+        "name": "demlehcore:chest_close",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "1": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "2": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "3": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "4": {
+      "item": "demlehcore:souffreblock"
+    },
+    "5": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "6": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "7": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "8": {
+      "item": "demlehcore:eboniteblock"
+    }
+  },
+  "result": {
+    "item": "demlehcore:demleh_machine",
+    "count": 1
+  }
+}

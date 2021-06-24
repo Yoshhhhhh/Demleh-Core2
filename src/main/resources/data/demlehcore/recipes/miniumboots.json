@@ -1,0 +1,26 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:minium"
+    },
+    "2": {
+      "item": "demlehcore:minium"
+    },
+    "3": {
+      "item": "demlehcore:minium"
+    },
+    "5": {
+      "item": "demlehcore:minium"
+    }
+  },
+  "result": {
+    "item": "demlehcore:miniumarmorboots",
+    "count": 1
+  }
+}

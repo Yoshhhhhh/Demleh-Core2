@@ -1,0 +1,32 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:miniumblock"
+    },
+    "1": {
+      "item": "demlehcore:minium"
+    },
+    "2": {
+      "item": "demlehcore:miniumblock"
+    },
+    "3": {
+      "item": "demlehcore:miniumblock"
+    },
+    "4": {
+      "item": "demlehcore:minium"
+    },
+    "5": {
+      "item": "demlehcore:miniumblock"
+    }
+  },
+  "result": {
+    "item": "demlehcore:minium_hammer_head",
+    "count": 1
+  }
+}

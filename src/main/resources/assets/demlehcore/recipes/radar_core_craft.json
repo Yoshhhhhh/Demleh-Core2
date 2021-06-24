@@ -1,0 +1,42 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:amazoniteblock"
+    },
+    "1": {
+      "item": "demlehcore:amazoniteblock"
+    },
+    "2": {
+      "item": "demlehcore:amazoniteblock"
+    },
+    "3": {
+      "item": "demlehcore:amazoniteblock"
+    },
+    "4": {
+      "item": "demlehcore:ebonite"
+    },
+    "5": {
+      "item": "demlehcore:amazoniteblock"
+    },
+    "6": {
+      "item": "demlehcore:amazoniteblock"
+    },
+    "7": {
+      "item": "demlehcore:amazoniteblock"
+    },
+    "8": {
+      "item": "demlehcore:amazoniteblock"
+    }
+  },
+  "result": {
+    "item": "demlehcore:radar_core",
+    "count": 1
+  }
+}

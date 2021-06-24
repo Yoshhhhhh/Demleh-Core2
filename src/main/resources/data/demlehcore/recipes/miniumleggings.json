@@ -1,0 +1,36 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:minium"
+    },
+    "1": {
+      "item": "demlehcore:minium"
+    },
+    "2": {
+      "item": "demlehcore:minium"
+    },
+    "3": {
+      "item": "demlehcore:minium"
+    },
+    "5": {
+      "item": "demlehcore:minium"
+    },
+    "6": {
+      "item": "demlehcore:minium"
+    },
+    "8": {
+      "item": "demlehcore:minium"
+    }
+  },
+  "result": {
+    "item": "demlehcore:miniumarmorlegs",
+    "count": 1
+  }
+}

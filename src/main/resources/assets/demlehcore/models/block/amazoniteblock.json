@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/amazonite_block",
+    "up": "demlehcore:blocks/amazonite_block",
+    "north": "demlehcore:blocks/amazonite_block",
+    "east": "demlehcore:blocks/amazonite_block",
+    "south": "demlehcore:blocks/amazonite_block",
+    "west": "demlehcore:blocks/amazonite_block",
+    "particle": "demlehcore:blocks/amazonite_block"
+  }
+}

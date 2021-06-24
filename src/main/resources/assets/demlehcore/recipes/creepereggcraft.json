@@ -1,0 +1,25 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:amazoniteblock"
+    },
+    "1": {
+      "item": "minecraft:tnt"
+    },
+    "2": {
+      "item": "demlehcore:amazoniteblock"
+    }
+  },
+  "result": {
+    "item": "minecraft:spawn_egg",
+    "data": 50,
+    "count": 1
+  }
+}

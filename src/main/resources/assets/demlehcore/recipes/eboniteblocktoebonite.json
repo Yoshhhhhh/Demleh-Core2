@@ -1,0 +1,13 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demlehcore:eboniteblock"
+    }
+  ],
+  "result": {
+    "item": "demlehcore:ebonite",
+    "count": 9
+  }
+}

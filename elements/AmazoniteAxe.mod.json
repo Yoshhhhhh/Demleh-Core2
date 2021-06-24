@@ -1,0 +1,27 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "amazonite_axe",
+    "customModelName": "Normal",
+    "name": "Amazonite axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Demleh"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 9.5,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

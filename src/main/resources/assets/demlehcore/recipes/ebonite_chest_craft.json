@@ -1,0 +1,42 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:ebonite"
+    },
+    "1": {
+      "item": "demlehcore:ebonite"
+    },
+    "2": {
+      "item": "demlehcore:ebonite"
+    },
+    "3": {
+      "item": "demlehcore:ebonite"
+    },
+    "4": {
+      "item": "demlehcore:minium_chest"
+    },
+    "5": {
+      "item": "demlehcore:ebonite"
+    },
+    "6": {
+      "item": "demlehcore:ebonite"
+    },
+    "7": {
+      "item": "demlehcore:ebonite"
+    },
+    "8": {
+      "item": "demlehcore:ebonite"
+    }
+  },
+  "result": {
+    "item": "demlehcore:ebonite_chest",
+    "count": 1
+  }
+}

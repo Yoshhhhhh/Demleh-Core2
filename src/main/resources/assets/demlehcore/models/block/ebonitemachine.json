@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/ebomachine",
+    "up": "demlehcore:blocks/ebomachine",
+    "north": "demlehcore:blocks/ebomachine",
+    "east": "demlehcore:blocks/ebomachine",
+    "south": "demlehcore:blocks/ebomachine",
+    "west": "demlehcore:blocks/ebomachine",
+    "particle": "demlehcore:blocks/ebomachine"
+  }
+}

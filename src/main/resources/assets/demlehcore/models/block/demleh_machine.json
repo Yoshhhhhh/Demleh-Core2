@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/demlehmachine_top",
+    "up": "demlehcore:blocks/demlehmachine_top",
+    "north": "demlehcore:blocks/demlehmachine_top",
+    "east": "demlehcore:blocks/demlehmachine_side",
+    "south": "demlehcore:blocks/demlehmachine_top",
+    "west": "demlehcore:blocks/demlehmachine_side",
+    "particle": "demlehcore:blocks/demlehmachine_top"
+  }
+}

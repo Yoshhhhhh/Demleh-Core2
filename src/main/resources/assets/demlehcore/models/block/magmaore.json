@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/magma_ore",
+    "up": "demlehcore:blocks/magma_ore",
+    "north": "demlehcore:blocks/magma_ore",
+    "east": "demlehcore:blocks/magma_ore",
+    "south": "demlehcore:blocks/magma_ore",
+    "west": "demlehcore:blocks/magma_ore",
+    "particle": "demlehcore:blocks/magma_ore"
+  }
+}

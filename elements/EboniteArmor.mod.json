@@ -1,0 +1,52 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "ebonite_helmet",
+    "enableBody": true,
+    "textureBody": "ebonite_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "ebonite_leggings",
+    "enableBoots": true,
+    "textureBoots": "ebonite_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Demleh"
+    },
+    "armorTextureFile": "ebonite__",
+    "helmetName": "Ebonite Helmet",
+    "bodyName": "Ebonite Chestplate",
+    "leggingsName": "Ebonite Leggings",
+    "bootsName": "Ebonite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 60,
+    "damageValueHelmet": 4,
+    "damageValueBody": 9,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 3,
+    "enchantability": 9,
+    "toughness": 3.6,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

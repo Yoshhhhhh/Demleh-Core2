@@ -1,0 +1,52 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "souffre_helmet",
+    "enableBody": true,
+    "textureBody": "souffre_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "souffre_leggings",
+    "enableBoots": true,
+    "textureBoots": "souffre_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Demleh"
+    },
+    "armorTextureFile": "ouffre2__",
+    "helmetName": "Souffre Helmet",
+    "bodyName": "Souffre Chestplate",
+    "leggingsName": "Souffre Leggings",
+    "bootsName": "Souffre Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 50,
+    "damageValueHelmet": 4,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 4,
+    "enchantability": 9,
+    "toughness": 2.9,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

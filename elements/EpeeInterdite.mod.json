@@ -1,0 +1,49 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "epeeinterdite",
+    "customModelName": "Normal",
+    "name": "Épée Interdite",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Demleh"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 2000,
+    "actionSound": {
+      "value": "item.firecharge.use"
+    },
+    "hasGlow": true,
+    "animation": "none",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 12.0,
+    "onRangedItemUsed": {
+      "name": "EpeeInterditeProcedure"
+    },
+    "bulletPower": 1.2,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "EpeeInterditeProcedure2"
+    },
+    "onBulletHitsPlayer": {
+      "name": "EpeeInterditeProcedure2"
+    },
+    "onBulletHitsEntity": {
+      "name": "EpeeInterditeProcedure2"
+    }
+  }
+}

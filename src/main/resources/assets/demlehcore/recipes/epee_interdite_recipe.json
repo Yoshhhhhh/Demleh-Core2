@@ -1,0 +1,24 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "1": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "2": {
+      "item": "demlehcore:prohibited_stick"
+    }
+  },
+  "result": {
+    "item": "demlehcore:epee_interdite",
+    "count": 1
+  }
+}

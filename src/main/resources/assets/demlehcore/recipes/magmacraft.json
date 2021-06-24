@@ -1,0 +1,42 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:magmanugget"
+    },
+    "1": {
+      "item": "demlehcore:magmanugget"
+    },
+    "2": {
+      "item": "demlehcore:magmanugget"
+    },
+    "3": {
+      "item": "demlehcore:magmanugget"
+    },
+    "4": {
+      "item": "demlehcore:magmanugget"
+    },
+    "5": {
+      "item": "demlehcore:magmanugget"
+    },
+    "6": {
+      "item": "demlehcore:magmanugget"
+    },
+    "7": {
+      "item": "demlehcore:magmanugget"
+    },
+    "8": {
+      "item": "demlehcore:magmanugget"
+    }
+  },
+  "result": {
+    "item": "demlehcore:magma",
+    "count": 1
+  }
+}

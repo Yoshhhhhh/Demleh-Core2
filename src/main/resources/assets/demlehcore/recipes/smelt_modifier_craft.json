@@ -1,0 +1,30 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "3": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "4": {
+      "item": "demlehcore:block_interdit"
+    },
+    "5": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "7": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    }
+  },
+  "result": {
+    "item": "demlehcore:smelt_modifier",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "demlehcore:custom/blackberry_stage3",
+  "textures": {
+    "all": "demlehcore:blocks/xpberry_bush_stage3",
+    "particle": "demlehcore:blocks/xpberry_bush_stage3",
+    "cross": "demlehcore:blocks/xpberry_bush_stage3"
+  }
+}

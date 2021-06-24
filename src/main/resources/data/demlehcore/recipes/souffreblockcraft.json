@@ -1,0 +1,42 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "1": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "2": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "3": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "4": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "5": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "6": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "7": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "8": {
+      "item": "demlehcore:souffrenugget"
+    }
+  },
+  "result": {
+    "item": "demlehcore:souffreblock",
+    "count": 1
+  }
+}

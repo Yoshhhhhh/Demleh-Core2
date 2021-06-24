@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/souffre_block",
+    "up": "demlehcore:blocks/souffre_block",
+    "north": "demlehcore:blocks/souffre_block",
+    "east": "demlehcore:blocks/souffre_block",
+    "south": "demlehcore:blocks/souffre_block",
+    "west": "demlehcore:blocks/souffre_block",
+    "particle": "demlehcore:blocks/souffre_block"
+  }
+}

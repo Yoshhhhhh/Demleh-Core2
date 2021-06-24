@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "rickroll",
+    "name": "Good Music",
+    "description": "....:)",
+    "creativeTab": {
+      "value": "CUSTOM:Demleh"
+    },
+    "music": {
+      "value": "CUSTOM:rickroll5"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

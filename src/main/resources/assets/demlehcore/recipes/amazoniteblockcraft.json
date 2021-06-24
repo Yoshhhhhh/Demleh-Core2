@@ -1,0 +1,42 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "1": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "2": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "3": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "4": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "5": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "6": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "7": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "8": {
+      "item": "demlehcore:amazoniteingot"
+    }
+  },
+  "result": {
+    "item": "demlehcore:amazoniteblock",
+    "count": 1
+  }
+}

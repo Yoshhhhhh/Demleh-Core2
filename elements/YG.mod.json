@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "record_11",
+    "name": "amazingmusic",
+    "description": ":)",
+    "creativeTab": {
+      "value": "CUSTOM:Demleh"
+    },
+    "music": {
+      "value": "CUSTOM:yg"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

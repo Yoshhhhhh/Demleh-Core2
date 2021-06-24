@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/crafting_table_front",
+    "up": "demlehcore:blocks/crafting_table_front",
+    "north": "demlehcore:blocks/crafting_table_front",
+    "east": "demlehcore:blocks/crafting_table_front",
+    "south": "demlehcore:blocks/crafting_table_front",
+    "west": "demlehcore:blocks/crafting_table_front",
+    "particle": "demlehcore:blocks/crafting_table_front"
+  }
+}

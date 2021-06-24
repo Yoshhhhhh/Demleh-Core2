@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AmazoniteBlock"
+      },
+      {
+        "value": "CUSTOM:AmazoniteBlock"
+      },
+      {
+        "value": "CUSTOM:AmazoniteBlock"
+      },
+      {
+        "value": "CUSTOM:AmazoniteBlock"
+      },
+      {
+        "value": "CUSTOM:Ebonite"
+      },
+      {
+        "value": "CUSTOM:AmazoniteBlock"
+      },
+      {
+        "value": "CUSTOM:AmazoniteBlock"
+      },
+      {
+        "value": "CUSTOM:AmazoniteBlock"
+      },
+      {
+        "value": "CUSTOM:AmazoniteBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RadarCore"
+    },
+    "name": "radar_core_craft",
+    "namespace": "mod"
+  }
+}

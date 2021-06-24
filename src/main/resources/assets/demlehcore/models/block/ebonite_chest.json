@@ -1,0 +1,8 @@
+{
+  "parent": "demlehcore:custom/ebonite_chest",
+  "textures": {
+    "all": "demlehcore:blocks/ebonite_chest",
+    "particle": "demlehcore:blocks/ebonite_chest",
+    "2": "demlehcore:blocks/ebonite_chest"
+  }
+}

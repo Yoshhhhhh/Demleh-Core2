@@ -1,0 +1,37 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demlehcore:rainbowingot"
+    },
+    {
+      "item": "demlehcore:rainbowingot"
+    },
+    {
+      "item": "demlehcore:rainbowingot"
+    },
+    {
+      "item": "demlehcore:rainbowingot"
+    },
+    {
+      "item": "demlehcore:rainbowingot"
+    },
+    {
+      "item": "demlehcore:rainbowingot"
+    },
+    {
+      "item": "demlehcore:rainbowingot"
+    },
+    {
+      "item": "demlehcore:rainbowingot"
+    },
+    {
+      "item": "demlehcore:rainbowingot"
+    }
+  ],
+  "result": {
+    "item": "demlehcore:rainbowblock",
+    "count": 1
+  }
+}

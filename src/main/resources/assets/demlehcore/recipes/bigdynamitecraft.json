@@ -1,0 +1,31 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demlehcore:dynamite"
+    },
+    {
+      "item": "demlehcore:dynamite"
+    },
+    {
+      "item": "demlehcore:dynamite"
+    },
+    {
+      "item": "demlehcore:dynamite"
+    },
+    {
+      "item": "demlehcore:dynamite"
+    },
+    {
+      "item": "demlehcore:dynamite"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "demlehcore:bigdynamite",
+    "count": 1
+  }
+}

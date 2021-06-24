@@ -1,0 +1,22 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "1": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "2": {
+      "item": "demlehcore:eboniteblock"
+    }
+  },
+  "result": {
+    "item": "demlehcore:ebonite_collector_head",
+    "count": 1
+  }
+}

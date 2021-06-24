@@ -1,0 +1,13 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demlehcore:souffreblock"
+    }
+  ],
+  "result": {
+    "item": "demlehcore:souffrenugget",
+    "count": 9
+  }
+}

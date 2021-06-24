@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/ebonite",
+    "up": "demlehcore:blocks/ebonite",
+    "north": "demlehcore:blocks/ebonite",
+    "east": "demlehcore:blocks/ebonite",
+    "south": "demlehcore:blocks/ebonite",
+    "west": "demlehcore:blocks/ebonite",
+    "particle": "demlehcore:blocks/ebonite"
+  }
+}

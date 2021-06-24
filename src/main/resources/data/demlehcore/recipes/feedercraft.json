@@ -1,0 +1,42 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_beef"
+    },
+    "1": {
+      "item": "demlehcore:miniumblock"
+    },
+    "2": {
+      "item": "minecraft:cooked_beef"
+    },
+    "3": {
+      "item": "demlehcore:miniumblock"
+    },
+    "4": {
+      "item": "demlehcore:hamburger"
+    },
+    "5": {
+      "item": "demlehcore:miniumblock"
+    },
+    "6": {
+      "item": "minecraft:cooked_beef"
+    },
+    "7": {
+      "item": "demlehcore:miniumblock"
+    },
+    "8": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "result": {
+    "item": "demlehcore:feeder",
+    "count": 1
+  }
+}

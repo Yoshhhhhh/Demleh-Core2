@@ -1,0 +1,26 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "xp_berry",
+    "customModelName": "Normal",
+    "name": "XP Berry",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Demleh"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 1,
+    "saturation": 0.6,
+    "eatingSpeed": 2,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "XPBerryOnFoodEaten"
+    }
+  }
+}

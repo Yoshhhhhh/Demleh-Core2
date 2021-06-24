@@ -1,0 +1,30 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:ebonite"
+    },
+    "1": {
+      "item": "demlehcore:ebonite"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "demlehcore:ebonite"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "demlehcore:ebonite_axe",
+    "count": 1
+  }
+}

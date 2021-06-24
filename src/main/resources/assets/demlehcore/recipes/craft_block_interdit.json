@@ -1,0 +1,42 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "1": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "2": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "3": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "4": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "5": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "6": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "7": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    },
+    "8": {
+      "item": "demlehcore:nugget_minerai_interdit"
+    }
+  },
+  "result": {
+    "item": "demlehcore:block_interdit",
+    "count": 1
+  }
+}

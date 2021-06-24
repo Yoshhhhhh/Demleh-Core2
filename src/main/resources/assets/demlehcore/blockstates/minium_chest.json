@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "normal": {
+      "model": "demlehcore:minium_chest"
+    },
+    "facing=north": {
+      "model": "demlehcore:minium_chest"
+    },
+    "facing=east": {
+      "model": "demlehcore:minium_chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "demlehcore:minium_chest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "demlehcore:minium_chest",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "demlehcore:minium_chest",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "demlehcore:minium_chest",
+      "x": 90
+    }
+  }
+}

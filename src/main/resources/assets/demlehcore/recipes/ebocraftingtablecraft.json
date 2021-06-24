@@ -1,0 +1,37 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demlehcore:eboniteblock"
+    },
+    {
+      "item": "demlehcore:eboniteblock"
+    },
+    {
+      "item": "demlehcore:eboniteblock"
+    },
+    {
+      "item": "demlehcore:eboniteblock"
+    },
+    {
+      "item": "demlehcore:souffreblock"
+    },
+    {
+      "item": "demlehcore:eboniteblock"
+    },
+    {
+      "item": "demlehcore:eboniteblock"
+    },
+    {
+      "item": "demlehcore:eboniteblock"
+    },
+    {
+      "item": "demlehcore:eboniteblock"
+    }
+  ],
+  "result": {
+    "item": "demlehcore:ebocraftingtable",
+    "count": 1
+  }
+}

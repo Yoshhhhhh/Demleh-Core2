@@ -1,0 +1,8 @@
+{
+  "parent": "demlehcore:custom/souffre_chest",
+  "textures": {
+    "all": "demlehcore:blocks/souffre_chest",
+    "particle": "demlehcore:blocks/souffre_chest",
+    "0": "demlehcore:blocks/souffre_chest"
+  }
+}

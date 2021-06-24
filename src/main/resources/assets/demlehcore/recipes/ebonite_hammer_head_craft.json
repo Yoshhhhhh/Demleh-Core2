@@ -1,0 +1,32 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "1": {
+      "item": "demlehcore:ebonite"
+    },
+    "2": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "3": {
+      "item": "demlehcore:eboniteblock"
+    },
+    "4": {
+      "item": "demlehcore:ebonite"
+    },
+    "5": {
+      "item": "demlehcore:eboniteblock"
+    }
+  },
+  "result": {
+    "item": "demlehcore:ebonite_hammer_head",
+    "count": 1
+  }
+}

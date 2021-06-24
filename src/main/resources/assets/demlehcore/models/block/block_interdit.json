@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demlehcore:blocks/blockinterdit3",
+    "up": "demlehcore:blocks/blockinterdit3",
+    "north": "demlehcore:blocks/blockinterdit3",
+    "east": "demlehcore:blocks/blockinterdit3",
+    "south": "demlehcore:blocks/blockinterdit3",
+    "west": "demlehcore:blocks/blockinterdit3",
+    "particle": "demlehcore:blocks/blockinterdit3"
+  }
+}

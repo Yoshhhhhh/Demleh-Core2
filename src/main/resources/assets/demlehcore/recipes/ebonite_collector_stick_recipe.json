@@ -1,0 +1,24 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:souffreblock"
+    },
+    "1": {
+      "item": "demlehcore:souffreblock"
+    },
+    "2": {
+      "item": "demlehcore:ebonite"
+    }
+  },
+  "result": {
+    "item": "demlehcore:ebonite_collector_stick",
+    "count": 1
+  }
+}

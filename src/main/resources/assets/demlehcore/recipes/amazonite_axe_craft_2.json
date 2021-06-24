@@ -1,0 +1,30 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "1": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "2": {
+      "item": "demlehcore:amazoniteingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "demlehcore:amazonite_axe",
+    "count": 1
+  }
+}

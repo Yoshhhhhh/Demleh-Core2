@@ -1,0 +1,29 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "1": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "2": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "3": {
+      "item": "demlehcore:souffrenugget"
+    },
+    "5": {
+      "item": "demlehcore:souffrenugget"
+    }
+  },
+  "result": {
+    "item": "demlehcore:souffrearmorhelmet",
+    "count": 1
+  }
+}

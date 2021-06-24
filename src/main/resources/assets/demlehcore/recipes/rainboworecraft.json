@@ -1,0 +1,38 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demlehcore:souffreblock"
+    },
+    {
+      "item": "demlehcore:miniumblock"
+    },
+    {
+      "item": "demlehcore:eboniteblock"
+    },
+    {
+      "item": "demlehcore:amazoniteblock"
+    },
+    {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    {
+      "item": "demlehcore:magma"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "result": {
+    "item": "demlehcore:rainbowore",
+    "count": 1
+  }
+}

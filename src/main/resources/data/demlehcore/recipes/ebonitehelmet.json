@@ -1,0 +1,29 @@
+{
+  "group": "demlehcore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "demlehcore:ebonite"
+    },
+    "1": {
+      "item": "demlehcore:ebonite"
+    },
+    "2": {
+      "item": "demlehcore:ebonite"
+    },
+    "3": {
+      "item": "demlehcore:ebonite"
+    },
+    "5": {
+      "item": "demlehcore:ebonite"
+    }
+  },
+  "result": {
+    "item": "demlehcore:ebonitearmorhelmet",
+    "count": 1
+  }
+}
