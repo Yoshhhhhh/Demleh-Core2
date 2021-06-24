@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "1",
+    "texture": "sharpnessmodifier",
     "customModelName": "Normal",
     "name": "Sharpness Modifier",
     "rarity": "COMMON",

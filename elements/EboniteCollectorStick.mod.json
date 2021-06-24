@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "5",
+    "texture": "ebonitecollectorstick",
     "customModelName": "Normal",
     "name": "Ebonite Collector Stick",
     "rarity": "COMMON",

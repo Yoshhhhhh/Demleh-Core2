@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "4",
+    "texture": "ebonitecollectorhead",
     "customModelName": "Normal",
     "name": "Ebonite Collector Head",
     "rarity": "COMMON",
