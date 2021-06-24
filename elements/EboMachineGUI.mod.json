@@ -75,6 +75,16 @@
           "x": 186,
           "y": 93
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow2.png",
+          "use1Xscale": false,
+          "name": "arrow2.png",
+          "x": 195,
+          "y": 59
+        }
       }
     ]
   }

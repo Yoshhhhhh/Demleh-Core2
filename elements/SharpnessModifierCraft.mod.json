@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:SouffreNugget"
       },
       {
-        "value": "CUSTOM:NuggetMineraiInterdit"
+        "value": "CUSTOM:BlockInterdit"
       },
       {
-        "value": ""
+        "value": "CUSTOM:SouffreNugget"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:NuggetMineraiInterdit"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:BlockInterdit"
       },
       {
         "value": "CUSTOM:ProhibitedStick"
       },
       {
-        "value": ""
+        "value": "CUSTOM:BlockInterdit"
+      },
+      {
+        "value": "CUSTOM:SouffreNugget"
+      },
+      {
+        "value": "CUSTOM:BlockInterdit"
+      },
+      {
+        "value": "CUSTOM:SouffreNugget"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EpeeInterdite"
+      "value": "CUSTOM:SharpnessModifier"
     },
-    "name": "epee_interdite_recipe",
+    "name": "sharpness_modifier_craft",
     "namespace": "mod"
   }
 }

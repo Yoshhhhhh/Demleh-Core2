@@ -3,24 +3,24 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 176,
-    "height": 166,
+    "width": 300,
+    "height": 200,
     "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
+    "inventoryOffsetY": 15,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
       {
         "type": "label",
         "data": {
-          "text": "Demleh Machine",
+          "text": "La machine du criminel",
           "color": {
-            "value": -10027264,
+            "value": -3407668,
             "falpha": 0.0
           },
-          "name": "Demleh Machine",
-          "x": 177,
-          "y": 44
+          "name": "La machine du criminel",
+          "x": 159,
+          "y": 26
         }
       },
       {
@@ -33,8 +33,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 132,
-          "y": 48
+          "x": 87,
+          "y": 107
         }
       },
       {
@@ -47,8 +47,28 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 132,
-          "y": 84
+          "x": 321,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nuggetinterdit.png",
+          "use1Xscale": true,
+          "name": "nuggetinterdit.png",
+          "x": 87,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magma_nugget.png",
+          "use1Xscale": true,
+          "name": "magma_nugget.png",
+          "x": 321,
+          "y": 125
         }
       },
       {
@@ -61,33 +81,33 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 168,
-          "y": 66
+          "x": 150,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 150,
+          "y": 80
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "id": 3,
+          "id": 4,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "name": "Slot #3",
-          "x": 267,
-          "y": 66
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "Craft!",
-          "onClick": {
-            "name": "DemlehMachineProcedure"
-          },
-          "width": 60,
-          "height": 20,
-          "name": "Craft!",
-          "x": 186,
-          "y": 93
+          "name": "Slot #4",
+          "x": 258,
+          "y": 62
         }
       },
       {
@@ -96,8 +116,22 @@
           "image": "arrow2.png",
           "use1Xscale": false,
           "name": "arrow2.png",
-          "x": 209,
-          "y": 57
+          "x": 195,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Craft!",
+          "onClick": {
+            "name": "MachineInterditeProcedure"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Craft!",
+          "x": 186,
+          "y": 107
         }
       }
     ]

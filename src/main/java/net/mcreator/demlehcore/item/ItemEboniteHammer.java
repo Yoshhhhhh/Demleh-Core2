@@ -35,7 +35,7 @@ public class ItemEboniteHammer extends ElementsDemlehcoreMod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("EBONITE_HAMMER", 7, 36000, 8f, 0f, 2)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("EBONITE_HAMMER", 7, 36000, 9.5f, 0f, 2)) {
 			{
 				this.attackSpeed = -3f;
 			}

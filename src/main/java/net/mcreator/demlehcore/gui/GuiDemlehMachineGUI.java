@@ -254,6 +254,8 @@ public class GuiDemlehMachineGUI extends ElementsDemlehcoreMod.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.drawModalRectWithCustomSizedTexture(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			zLevel = 100.0F;
+			this.mc.renderEngine.bindTexture(new ResourceLocation("demlehcore:textures/arrow2.png"));
+			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 83, this.guiTop + 20, 0, 0, 32, 32, 32, 32);
 		}
 
 		@Override

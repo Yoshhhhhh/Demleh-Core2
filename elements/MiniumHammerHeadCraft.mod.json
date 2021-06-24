@@ -10,22 +10,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:MiniumBlock"
+        "value": "CUSTOM:Minium"
       },
       {
         "value": "CUSTOM:Minium"
       },
       {
-        "value": "CUSTOM:MiniumBlock"
-      },
-      {
-        "value": "CUSTOM:MiniumBlock"
+        "value": "CUSTOM:Minium"
       },
       {
         "value": "CUSTOM:Minium"
       },
       {
-        "value": "CUSTOM:MiniumBlock"
+        "value": "CUSTOM:Minium"
+      },
+      {
+        "value": "CUSTOM:Minium"
       },
       {
         "value": ""

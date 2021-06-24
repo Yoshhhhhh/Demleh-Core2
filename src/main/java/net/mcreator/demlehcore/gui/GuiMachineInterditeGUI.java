@@ -24,7 +24,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
-import net.mcreator.demlehcore.procedure.ProcedureEboMachineProcedure;
+import net.mcreator.demlehcore.procedure.ProcedureMachineInterditeProcedure;
 import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 import net.mcreator.demlehcore.DemlehcoreMod;
 
@@ -35,11 +35,11 @@ import java.util.HashMap;
 import java.io.IOException;
 
 @ElementsDemlehcoreMod.ModElement.Tag
-public class GuiEboMachineGUI extends ElementsDemlehcoreMod.ModElement {
-	public static int GUIID = 1;
+public class GuiMachineInterditeGUI extends ElementsDemlehcoreMod.ModElement {
+	public static int GUIID = 8;
 	public static HashMap guistate = new HashMap();
-	public GuiEboMachineGUI(ElementsDemlehcoreMod instance) {
-		super(instance, 83);
+	public GuiMachineInterditeGUI(ElementsDemlehcoreMod instance) {
+		super(instance, 225);
 	}
 
 	@Override
@@ -59,15 +59,19 @@ public class GuiEboMachineGUI extends ElementsDemlehcoreMod.ModElement {
 			this.x = x;
 			this.y = y;
 			this.z = z;
-			this.internal = new InventoryBasic("", true, 3);
+			this.internal = new InventoryBasic("", true, 5);
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 16, 21) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 24, 88) {
 			}));
-			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 16, 48) {
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 258, 88) {
 			}));
-			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 142, 30) {
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 87, 25) {
+			}));
+			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 87, 61) {
+			}));
+			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 195, 43) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -77,9 +81,9 @@ public class GuiEboMachineGUI extends ElementsDemlehcoreMod.ModElement {
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 62 + 8 + sj * 18, 32 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlotToContainer(new Slot(player.inventory, si, 0 + 8 + si * 18, 0 + 142));
+				this.addSlotToContainer(new Slot(player.inventory, si, 62 + 8 + si * 18, 32 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -98,18 +102,18 @@ public class GuiEboMachineGUI extends ElementsDemlehcoreMod.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 3) {
-					if (!this.mergeItemStack(itemstack1, 3, this.inventorySlots.size(), true)) {
+				if (index < 5) {
+					if (!this.mergeItemStack(itemstack1, 5, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 3, false)) {
-					if (index < 3 + 27) {
-						if (!this.mergeItemStack(itemstack1, 3 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 5, false)) {
+					if (index < 5 + 27) {
+						if (!this.mergeItemStack(itemstack1, 5 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 3, 3 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 5, 5 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -233,10 +237,10 @@ public class GuiEboMachineGUI extends ElementsDemlehcoreMod.ModElement {
 			this.y = y;
 			this.z = z;
 			this.entity = entity;
-			this.xSize = 176;
-			this.ySize = 166;
+			this.xSize = 300;
+			this.ySize = 200;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("demlehcore:textures/ebomachinegui.png");
+		private static final ResourceLocation texture = new ResourceLocation("demlehcore:textures/machine_interdite_gui.png");
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();
@@ -252,8 +256,12 @@ public class GuiEboMachineGUI extends ElementsDemlehcoreMod.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.drawModalRectWithCustomSizedTexture(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			zLevel = 100.0F;
+			this.mc.renderEngine.bindTexture(new ResourceLocation("demlehcore:textures/nuggetinterdit.png"));
+			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 23, this.guiTop + 105, 0, 0, 16, 16, 16, 16);
+			this.mc.renderEngine.bindTexture(new ResourceLocation("demlehcore:textures/magma_nugget.png"));
+			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 257, this.guiTop + 105, 0, 0, 16, 16, 16, 16);
 			this.mc.renderEngine.bindTexture(new ResourceLocation("demlehcore:textures/arrow2.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 69, this.guiTop + 22, 0, 0, 32, 32, 32, 32);
+			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 131, this.guiTop + 33, 0, 0, 32, 32, 32, 32);
 		}
 
 		@Override
@@ -273,7 +281,7 @@ public class GuiEboMachineGUI extends ElementsDemlehcoreMod.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
-			this.fontRenderer.drawString("Ebonite Machine", 45, 6, -1);
+			this.fontRenderer.drawString("La machine du criminel", 95, 6, -3407668);
 		}
 
 		@Override
@@ -285,11 +293,11 @@ public class GuiEboMachineGUI extends ElementsDemlehcoreMod.ModElement {
 		@Override
 		public void initGui() {
 			super.initGui();
-			this.guiLeft = (this.width - 176) / 2;
-			this.guiTop = (this.height - 166) / 2;
+			this.guiLeft = (this.width - 300) / 2;
+			this.guiTop = (this.height - 200) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
-			this.buttonList.add(new GuiButton(0, this.guiLeft + 60, this.guiTop + 56, 50, 20, "Craft"));
+			this.buttonList.add(new GuiButton(0, this.guiLeft + 122, this.guiTop + 87, 55, 20, "Craft!"));
 		}
 
 		@Override
@@ -411,7 +419,7 @@ public class GuiEboMachineGUI extends ElementsDemlehcoreMod.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ProcedureEboMachineProcedure.executeProcedure($_dependencies);
+				ProcedureMachineInterditeProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

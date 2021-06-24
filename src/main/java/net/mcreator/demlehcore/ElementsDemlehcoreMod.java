@@ -36,6 +36,7 @@ import net.minecraft.block.Block;
 
 import net.mcreator.demlehcore.gui.GuiSouffreChestGUI;
 import net.mcreator.demlehcore.gui.GuiMiniumChestGUI;
+import net.mcreator.demlehcore.gui.GuiMachineInterditeGUI;
 import net.mcreator.demlehcore.gui.GuiEboniteChestGUI;
 import net.mcreator.demlehcore.gui.GuiEboMachineGUI;
 import net.mcreator.demlehcore.gui.GuiDemlehMachineGUI;
@@ -162,6 +163,8 @@ public class ElementsDemlehcoreMod implements IFuelHandler, IWorldGenerator {
 				return new GuiAmazoniteChestGUI.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiSouffreChestGUI.GUIID)
 				return new GuiSouffreChestGUI.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiMachineInterditeGUI.GUIID)
+				return new GuiMachineInterditeGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -179,6 +182,8 @@ public class ElementsDemlehcoreMod implements IFuelHandler, IWorldGenerator {
 				return new GuiAmazoniteChestGUI.GuiWindow(world, x, y, z, player);
 			if (id == GuiSouffreChestGUI.GUIID)
 				return new GuiSouffreChestGUI.GuiWindow(world, x, y, z, player);
+			if (id == GuiMachineInterditeGUI.GUIID)
+				return new GuiMachineInterditeGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

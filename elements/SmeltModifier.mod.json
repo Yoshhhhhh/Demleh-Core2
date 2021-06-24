@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "smelt",
+    "texture": "smeltmodifier",
     "customModelName": "Normal",
     "name": "Smelt Modifier",
     "rarity": "COMMON",

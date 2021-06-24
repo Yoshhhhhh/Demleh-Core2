@@ -8,31 +8,31 @@
   ],
   "key": {
     "0": {
-      "item": "demlehcore:block_interdit"
+      "item": "demlehcore:souffrenugget"
     },
     "1": {
-      "item": "demlehcore:nugget_minerai_interdit"
-    },
-    "2": {
       "item": "demlehcore:block_interdit"
     },
+    "2": {
+      "item": "demlehcore:souffrenugget"
+    },
     "3": {
-      "item": "demlehcore:nugget_minerai_interdit"
+      "item": "demlehcore:block_interdit"
     },
     "4": {
       "item": "demlehcore:prohibited_stick"
     },
     "5": {
-      "item": "demlehcore:nugget_minerai_interdit"
+      "item": "demlehcore:block_interdit"
     },
     "6": {
-      "item": "demlehcore:block_interdit"
+      "item": "demlehcore:souffrenugget"
     },
     "7": {
-      "item": "demlehcore:nugget_minerai_interdit"
+      "item": "demlehcore:block_interdit"
     },
     "8": {
-      "item": "demlehcore:block_interdit"
+      "item": "demlehcore:souffrenugget"
     }
   },
   "result": {

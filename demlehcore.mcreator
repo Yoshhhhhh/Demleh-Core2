@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 5,
-    "GUI": 7
+    "GUI": 8,
+    "ENTITY": 5
   },
   "mod_elements": [
     {
@@ -2549,33 +2549,6 @@
       "registry_name": "prohibited_stick"
     },
     {
-      "name": "StickRecipe",
-      "type": "recipe",
-      "sortid": 218,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stick_recipe"
-    },
-    {
-      "name": "ModifierRecipe",
-      "type": "recipe",
-      "sortid": 216,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "modifier_recipe"
-    },
-    {
-      "name": "EpeeInterditeRecipe",
-      "type": "recipe",
-      "sortid": 219,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "epee_interdite_recipe"
-    },
-    {
       "name": "EboniteCollectorHead",
       "type": "item",
       "sortid": 220,
@@ -2628,6 +2601,55 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "machineinterditerecipe"
+    },
+    {
+      "name": "MachineInterditeGUI",
+      "type": "gui",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 8
+      },
+      "registry_name": "machine_interdite_gui"
+    },
+    {
+      "name": "MachineInterditeProcedure",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "machine_interdite_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SharpnessModifierCraft",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sharpness_modifier_craft"
     }
   ],
   "variable_elements": [],
@@ -2718,10 +2740,10 @@
       "item.record.yg.desc": ":)",
       "item.demlehcore.ebonite_axe": "Ebonite axe",
       "item.bigdynamiteentity.name": "Big Dynamite Entity",
-      "item.epee_interdite.name": "Épée Interdite",
       "block.demlehcore.demleh_machine": "Demleh Machine",
-      "block.demlehcore.souffre": "Souffre Ore",
+      "item.epee_interdite.name": "Épée Interdite",
       "item.radar_core.name": "Radar Core",
+      "block.demlehcore.souffre": "Souffre Ore",
       "item.demlehcore.eboniteapple": "Ebonite Apple",
       "item.ebonitearmorboots.name": "Ebonite Boots",
       "item.minium_axe.name": "Minium axe",
@@ -2734,8 +2756,8 @@
       "block.demlehcore.blackobsiphase2": "Black Obsi Phase2",
       "tile.ebocraftingtable.name": "Ebo Crafting Table",
       "tile.blackobsiphase3.name": "Black Obsi Phase3",
-      "item.demlehcore.hamburger": "Hamburger",
       "block.demlehcore.feeder": "Feeder",
+      "item.demlehcore.hamburger": "Hamburger",
       "item.ebonitearmorlegs.name": "Ebonite Leggings",
       "item.ebonite_axe.name": "Ebonite axe",
       "tile.amazoniteore.name": "Amazonite Ore",
