@@ -29,7 +29,7 @@ public class ItemMiniumSword extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:miniumsword")
 	public static final Item block = null;
 	public ItemMiniumSword(ElementsDemlehcoreMod instance) {
-		super(instance, 54);
+		super(instance, 29);
 	}
 
 	@Override

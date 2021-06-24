@@ -24,7 +24,7 @@ public class ItemAmazoniteShovel extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:amazonite_shovel")
 	public static final Item block = null;
 	public ItemAmazoniteShovel(ElementsDemlehcoreMod instance) {
-		super(instance, 158);
+		super(instance, 41);
 	}
 
 	@Override

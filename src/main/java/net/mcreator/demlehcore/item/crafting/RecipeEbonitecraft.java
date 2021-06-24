@@ -13,7 +13,7 @@ import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class RecipeEbonitecraft extends ElementsDemlehcoreMod.ModElement {
 	public RecipeEbonitecraft(ElementsDemlehcoreMod instance) {
-		super(instance, 11);
+		super(instance, 84);
 	}
 
 	@Override

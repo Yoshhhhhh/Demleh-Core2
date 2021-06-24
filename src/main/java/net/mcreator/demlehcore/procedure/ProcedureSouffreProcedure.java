@@ -26,7 +26,7 @@ import java.util.Iterator;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureSouffreProcedure extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureSouffreProcedure(ElementsDemlehcoreMod instance) {
-		super(instance, 134);
+		super(instance, 166);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

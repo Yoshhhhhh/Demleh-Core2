@@ -27,7 +27,7 @@ public class ItemMagmaApple extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:magmaapple")
 	public static final Item block = null;
 	public ItemMagmaApple(ElementsDemlehcoreMod instance) {
-		super(instance, 75);
+		super(instance, 62);
 	}
 
 	@Override

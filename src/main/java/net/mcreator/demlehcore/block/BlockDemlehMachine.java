@@ -54,7 +54,7 @@ public class BlockDemlehMachine extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:demleh_machine")
 	public static final Block block = null;
 	public BlockDemlehMachine(ElementsDemlehcoreMod instance) {
-		super(instance, 137);
+		super(instance, 56);
 	}
 
 	@Override

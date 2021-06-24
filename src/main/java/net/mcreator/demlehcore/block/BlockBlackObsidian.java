@@ -29,7 +29,7 @@ public class BlockBlackObsidian extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:blackobsidian")
 	public static final Block block = null;
 	public BlockBlackObsidian(ElementsDemlehcoreMod instance) {
-		super(instance, 64);
+		super(instance, 52);
 	}
 
 	@Override

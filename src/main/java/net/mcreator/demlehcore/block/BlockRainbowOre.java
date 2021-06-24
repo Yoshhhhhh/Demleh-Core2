@@ -22,7 +22,7 @@ public class BlockRainbowOre extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:rainbowore")
 	public static final Block block = null;
 	public BlockRainbowOre(ElementsDemlehcoreMod instance) {
-		super(instance, 94);
+		super(instance, 5);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureMiniumXP extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureMiniumXP(ElementsDemlehcoreMod instance) {
-		super(instance, 127);
+		super(instance, 159);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

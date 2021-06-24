@@ -17,7 +17,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureEboniteXP extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureEboniteXP(ElementsDemlehcoreMod instance) {
-		super(instance, 128);
+		super(instance, 160);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

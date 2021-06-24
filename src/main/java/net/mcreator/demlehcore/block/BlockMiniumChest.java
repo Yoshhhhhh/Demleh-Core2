@@ -54,7 +54,7 @@ public class BlockMiniumChest extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:minium_chest")
 	public static final Block block = null;
 	public BlockMiniumChest(ElementsDemlehcoreMod instance) {
-		super(instance, 192);
+		super(instance, 73);
 	}
 
 	@Override

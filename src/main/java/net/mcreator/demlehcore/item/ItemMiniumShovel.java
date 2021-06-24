@@ -24,7 +24,7 @@ public class ItemMiniumShovel extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:minium_shovel")
 	public static final Item block = null;
 	public ItemMiniumShovel(ElementsDemlehcoreMod instance) {
-		super(instance, 162);
+		super(instance, 43);
 	}
 
 	@Override

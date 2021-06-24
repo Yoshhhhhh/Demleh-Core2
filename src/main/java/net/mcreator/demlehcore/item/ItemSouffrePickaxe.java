@@ -24,7 +24,7 @@ public class ItemSouffrePickaxe extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:souffrepickaxe")
 	public static final Item block = null;
 	public ItemSouffrePickaxe(ElementsDemlehcoreMod instance) {
-		super(instance, 36);
+		super(instance, 33);
 	}
 
 	@Override

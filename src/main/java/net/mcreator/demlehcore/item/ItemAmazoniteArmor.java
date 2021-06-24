@@ -28,7 +28,7 @@ public class ItemAmazoniteArmor extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:amazonitearmorboots")
 	public static final Item boots = null;
 	public ItemAmazoniteArmor(ElementsDemlehcoreMod instance) {
-		super(instance, 12);
+		super(instance, 22);
 	}
 
 	@Override

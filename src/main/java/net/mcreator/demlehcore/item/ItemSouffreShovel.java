@@ -24,7 +24,7 @@ public class ItemSouffreShovel extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:souffre_shovel")
 	public static final Item block = null;
 	public ItemSouffreShovel(ElementsDemlehcoreMod instance) {
-		super(instance, 160);
+		super(instance, 42);
 	}
 
 	@Override

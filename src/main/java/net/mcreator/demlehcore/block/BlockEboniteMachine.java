@@ -48,7 +48,7 @@ public class BlockEboniteMachine extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:ebonitemachine")
 	public static final Block block = null;
 	public BlockEboniteMachine(ElementsDemlehcoreMod instance) {
-		super(instance, 80);
+		super(instance, 55);
 	}
 
 	@Override

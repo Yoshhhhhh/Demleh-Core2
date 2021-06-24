@@ -13,7 +13,7 @@ import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class RecipeSouffrenuggetcraft extends ElementsDemlehcoreMod.ModElement {
 	public RecipeSouffrenuggetcraft(ElementsDemlehcoreMod instance) {
-		super(instance, 7);
+		super(instance, 82);
 	}
 
 	@Override

@@ -20,7 +20,7 @@ public class ItemYG extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:yg")
 	public static final Item block = null;
 	public ItemYG(ElementsDemlehcoreMod instance) {
-		super(instance, 91);
+		super(instance, 63);
 	}
 
 	@Override

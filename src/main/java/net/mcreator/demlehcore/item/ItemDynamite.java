@@ -43,7 +43,7 @@ public class ItemDynamite extends ElementsDemlehcoreMod.ModElement {
 	public static final Item block = null;
 	public static final int ENTITYID = 1;
 	public ItemDynamite(ElementsDemlehcoreMod instance) {
-		super(instance, 105);
+		super(instance, 65);
 	}
 
 	@Override

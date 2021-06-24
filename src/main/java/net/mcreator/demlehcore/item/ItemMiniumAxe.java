@@ -27,7 +27,7 @@ public class ItemMiniumAxe extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:minium_axe")
 	public static final Item block = null;
 	public ItemMiniumAxe(ElementsDemlehcoreMod instance) {
-		super(instance, 161);
+		super(instance, 39);
 	}
 
 	@Override

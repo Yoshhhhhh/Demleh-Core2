@@ -24,7 +24,7 @@ public class ItemEbonitePickaxe extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:ebonitepickaxe")
 	public static final Item block = null;
 	public ItemEbonitePickaxe(ElementsDemlehcoreMod instance) {
-		super(instance, 38);
+		super(instance, 35);
 	}
 
 	@Override

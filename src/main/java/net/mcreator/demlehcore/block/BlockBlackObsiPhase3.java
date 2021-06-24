@@ -28,7 +28,7 @@ public class BlockBlackObsiPhase3 extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:blackobsiphase3")
 	public static final Block block = null;
 	public BlockBlackObsiPhase3(ElementsDemlehcoreMod instance) {
-		super(instance, 115);
+		super(instance, 151);
 	}
 
 	@Override

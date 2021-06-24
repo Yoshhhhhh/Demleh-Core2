@@ -20,7 +20,7 @@ public class ItemRainbowIngot extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:rainbowingot")
 	public static final Item block = null;
 	public ItemRainbowIngot(ElementsDemlehcoreMod instance) {
-		super(instance, 95);
+		super(instance, 13);
 	}
 
 	@Override

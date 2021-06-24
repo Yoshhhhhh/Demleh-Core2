@@ -49,7 +49,7 @@ public class ItemEpeeInterdite extends ElementsDemlehcoreMod.ModElement {
 	public static final Item block = null;
 	public static final int ENTITYID = 5;
 	public ItemEpeeInterdite(ElementsDemlehcoreMod instance) {
-		super(instance, 210);
+		super(instance, 31);
 	}
 
 	@Override

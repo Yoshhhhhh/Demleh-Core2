@@ -27,7 +27,7 @@ public class ItemHamburger extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:hamburger")
 	public static final Item block = null;
 	public ItemHamburger(ElementsDemlehcoreMod instance) {
-		super(instance, 66);
+		super(instance, 59);
 	}
 
 	@Override

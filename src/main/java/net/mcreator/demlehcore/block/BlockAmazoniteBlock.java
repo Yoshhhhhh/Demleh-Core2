@@ -22,7 +22,7 @@ public class BlockAmazoniteBlock extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:amazoniteblock")
 	public static final Block block = null;
 	public BlockAmazoniteBlock(ElementsDemlehcoreMod instance) {
-		super(instance, 43);
+		super(instance, 15);
 	}
 
 	@Override

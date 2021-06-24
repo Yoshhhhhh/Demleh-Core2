@@ -54,7 +54,7 @@ public class BlockMachineInterdite extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:machine_interdite")
 	public static final Block block = null;
 	public BlockMachineInterdite(ElementsDemlehcoreMod instance) {
-		super(instance, 223);
+		super(instance, 57);
 	}
 
 	@Override

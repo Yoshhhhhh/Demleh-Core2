@@ -20,7 +20,7 @@ public class ItemSmeltModifier extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:smelt_modifier")
 	public static final Item block = null;
 	public ItemSmeltModifier(ElementsDemlehcoreMod instance) {
-		super(instance, 153);
+		super(instance, 75);
 	}
 
 	@Override

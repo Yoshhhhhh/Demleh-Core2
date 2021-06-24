@@ -22,7 +22,7 @@ public class BlockMiniumBlock extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:miniumblock")
 	public static final Block block = null;
 	public BlockMiniumBlock(ElementsDemlehcoreMod instance) {
-		super(instance, 48);
+		super(instance, 17);
 	}
 
 	@Override

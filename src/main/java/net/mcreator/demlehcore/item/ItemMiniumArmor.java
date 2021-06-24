@@ -28,7 +28,7 @@ public class ItemMiniumArmor extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:miniumarmorboots")
 	public static final Item boots = null;
 	public ItemMiniumArmor(ElementsDemlehcoreMod instance) {
-		super(instance, 14);
+		super(instance, 24);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureXPBushStage1UpdateTick extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureXPBushStage1UpdateTick(ElementsDemlehcoreMod instance) {
-		super(instance, 170);
+		super(instance, 184);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

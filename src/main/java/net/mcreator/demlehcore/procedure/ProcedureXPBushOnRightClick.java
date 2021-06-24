@@ -20,7 +20,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureXPBushOnRightClick extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureXPBushOnRightClick(ElementsDemlehcoreMod instance) {
-		super(instance, 172);
+		super(instance, 185);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -28,7 +28,7 @@ public class ItemSouffreArmor extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:souffrearmorboots")
 	public static final Item boots = null;
 	public ItemSouffreArmor(ElementsDemlehcoreMod instance) {
-		super(instance, 16);
+		super(instance, 23);
 	}
 
 	@Override

@@ -20,7 +20,7 @@ public class ItemSouffreStick extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:souffrestick")
 	public static final Item block = null;
 	public ItemSouffreStick(ElementsDemlehcoreMod instance) {
-		super(instance, 60);
+		super(instance, 77);
 	}
 
 	@Override

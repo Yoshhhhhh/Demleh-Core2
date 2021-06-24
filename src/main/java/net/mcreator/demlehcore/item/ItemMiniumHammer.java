@@ -14,11 +14,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.Item;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
 import net.mcreator.demlehcore.procedure.ProcedureHammerProcedure;
+import net.mcreator.demlehcore.creativetab.TabDemleh;
 import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 
 import java.util.Set;
@@ -30,7 +30,7 @@ public class ItemMiniumHammer extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:minium_hammer")
 	public static final Item block = null;
 	public ItemMiniumHammer(ElementsDemlehcoreMod instance) {
-		super(instance, 143);
+		super(instance, 45);
 	}
 
 	@Override
@@ -62,7 +62,7 @@ public class ItemMiniumHammer extends ElementsDemlehcoreMod.ModElement {
 				}
 				return retval;
 			}
-		}.setUnlocalizedName("minium_hammer").setRegistryName("minium_hammer").setCreativeTab(CreativeTabs.TOOLS));
+		}.setUnlocalizedName("minium_hammer").setRegistryName("minium_hammer").setCreativeTab(TabDemleh.tab));
 	}
 
 	@SideOnly(Side.CLIENT)

@@ -28,7 +28,7 @@ public class ItemEboniteArmor extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:ebonitearmorboots")
 	public static final Item boots = null;
 	public ItemEboniteArmor(ElementsDemlehcoreMod instance) {
-		super(instance, 15);
+		super(instance, 25);
 	}
 
 	@Override

@@ -20,7 +20,7 @@ public class ItemEboniteHammerHead extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:ebonite_hammer_head")
 	public static final Item block = null;
 	public ItemEboniteHammerHead(ElementsDemlehcoreMod instance) {
-		super(instance, 150);
+		super(instance, 50);
 	}
 
 	@Override

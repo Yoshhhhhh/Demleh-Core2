@@ -10,7 +10,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureXPBreakBlackObsi extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureXPBreakBlackObsi(ElementsDemlehcoreMod instance) {
-		super(instance, 124);
+		super(instance, 156);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

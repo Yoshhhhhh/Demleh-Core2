@@ -13,7 +13,7 @@ import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class TabDemleh extends ElementsDemlehcoreMod.ModElement {
 	public TabDemleh(ElementsDemlehcoreMod instance) {
-		super(instance, 104);
+		super(instance, 141);
 	}
 
 	@Override

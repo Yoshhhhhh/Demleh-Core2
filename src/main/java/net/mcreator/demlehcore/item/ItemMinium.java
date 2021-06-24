@@ -20,7 +20,7 @@ public class ItemMinium extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:minium")
 	public static final Item block = null;
 	public ItemMinium(ElementsDemlehcoreMod instance) {
-		super(instance, 8);
+		super(instance, 10);
 	}
 
 	@Override

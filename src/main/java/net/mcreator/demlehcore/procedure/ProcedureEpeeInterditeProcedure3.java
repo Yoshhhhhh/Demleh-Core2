@@ -19,7 +19,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureEpeeInterditeProcedure3 extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureEpeeInterditeProcedure3(ElementsDemlehcoreMod instance) {
-		super(instance, 215);
+		super(instance, 217);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

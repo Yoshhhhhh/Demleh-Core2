@@ -35,7 +35,7 @@ public class ItemMagmaHelmet extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:magma_helmetboots")
 	public static final Item boots = null;
 	public ItemMagmaHelmet(ElementsDemlehcoreMod instance) {
-		super(instance, 155);
+		super(instance, 26);
 	}
 
 	@Override

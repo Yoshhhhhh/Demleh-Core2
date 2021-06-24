@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureOpenEboMachineGUI extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureOpenEboMachineGUI(ElementsDemlehcoreMod instance) {
-		super(instance, 84);
+		super(instance, 128);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

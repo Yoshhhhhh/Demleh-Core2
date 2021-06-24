@@ -27,7 +27,7 @@ public class ItemXPBerry extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:xp_berry")
 	public static final Item block = null;
 	public ItemXPBerry(ElementsDemlehcoreMod instance) {
-		super(instance, 171);
+		super(instance, 68);
 	}
 
 	@Override

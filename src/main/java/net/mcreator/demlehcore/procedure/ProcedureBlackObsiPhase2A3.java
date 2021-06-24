@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureBlackObsiPhase2A3 extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureBlackObsiPhase2A3(ElementsDemlehcoreMod instance) {
-		super(instance, 118);
+		super(instance, 153);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

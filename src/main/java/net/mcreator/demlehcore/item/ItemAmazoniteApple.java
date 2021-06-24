@@ -27,7 +27,7 @@ public class ItemAmazoniteApple extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:amazoniteapple")
 	public static final Item block = null;
 	public ItemAmazoniteApple(ElementsDemlehcoreMod instance) {
-		super(instance, 73);
+		super(instance, 60);
 	}
 
 	@Override

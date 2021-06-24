@@ -29,7 +29,7 @@ public class ItemSouffreSword extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:souffresword")
 	public static final Item block = null;
 	public ItemSouffreSword(ElementsDemlehcoreMod instance) {
-		super(instance, 53);
+		super(instance, 28);
 	}
 
 	@Override

@@ -12,7 +12,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureEpeeInterditeProcedure extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureEpeeInterditeProcedure(ElementsDemlehcoreMod instance) {
-		super(instance, 209);
+		super(instance, 212);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

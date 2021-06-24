@@ -20,7 +20,7 @@ public class ItemRadarCore extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:radar_core")
 	public static final Item block = null;
 	public ItemRadarCore(ElementsDemlehcoreMod instance) {
-		super(instance, 188);
+		super(instance, 69);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class ItemEboniteApple extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:eboniteapple")
 	public static final Item block = null;
 	public ItemEboniteApple(ElementsDemlehcoreMod instance) {
-		super(instance, 78);
+		super(instance, 61);
 	}
 
 	@Override

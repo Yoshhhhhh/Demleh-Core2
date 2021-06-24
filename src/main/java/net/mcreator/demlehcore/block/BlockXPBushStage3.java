@@ -49,7 +49,7 @@ public class BlockXPBushStage3 extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:xp_bush_stage_3")
 	public static final Block block = null;
 	public BlockXPBushStage3(ElementsDemlehcoreMod instance) {
-		super(instance, 169);
+		super(instance, 183);
 	}
 
 	@Override

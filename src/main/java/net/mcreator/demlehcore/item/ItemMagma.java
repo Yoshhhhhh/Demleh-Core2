@@ -20,7 +20,7 @@ public class ItemMagma extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:magma")
 	public static final Item block = null;
 	public ItemMagma(ElementsDemlehcoreMod instance) {
-		super(instance, 70);
+		super(instance, 19);
 	}
 
 	@Override

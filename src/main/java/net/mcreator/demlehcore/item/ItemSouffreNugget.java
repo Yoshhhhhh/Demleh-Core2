@@ -20,7 +20,7 @@ public class ItemSouffreNugget extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:souffrenugget")
 	public static final Item block = null;
 	public ItemSouffreNugget(ElementsDemlehcoreMod instance) {
-		super(instance, 6);
+		super(instance, 9);
 	}
 
 	@Override

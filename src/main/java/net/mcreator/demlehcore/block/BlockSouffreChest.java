@@ -54,7 +54,7 @@ public class BlockSouffreChest extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:souffre_chest")
 	public static final Block block = null;
 	public BlockSouffreChest(ElementsDemlehcoreMod instance) {
-		super(instance, 199);
+		super(instance, 72);
 	}
 
 	@Override

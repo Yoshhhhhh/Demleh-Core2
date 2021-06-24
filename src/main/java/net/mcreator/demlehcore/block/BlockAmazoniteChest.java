@@ -54,7 +54,7 @@ public class BlockAmazoniteChest extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:amazonite_chest")
 	public static final Block block = null;
 	public BlockAmazoniteChest(ElementsDemlehcoreMod instance) {
-		super(instance, 198);
+		super(instance, 71);
 	}
 
 	@Override

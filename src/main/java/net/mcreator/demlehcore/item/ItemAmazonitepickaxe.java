@@ -24,7 +24,7 @@ public class ItemAmazonitepickaxe extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:amazonitepickaxe")
 	public static final Item block = null;
 	public ItemAmazonitepickaxe(ElementsDemlehcoreMod instance) {
-		super(instance, 35);
+		super(instance, 32);
 	}
 
 	@Override

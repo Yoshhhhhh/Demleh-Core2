@@ -20,7 +20,7 @@ public class ItemProhibitedStick extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:prohibited_stick")
 	public static final Item block = null;
 	public ItemProhibitedStick(ElementsDemlehcoreMod instance) {
-		super(instance, 217);
+		super(instance, 79);
 	}
 
 	@Override

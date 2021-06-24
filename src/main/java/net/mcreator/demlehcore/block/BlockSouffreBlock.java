@@ -22,7 +22,7 @@ public class BlockSouffreBlock extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:souffreblock")
 	public static final Block block = null;
 	public BlockSouffreBlock(ElementsDemlehcoreMod instance) {
-		super(instance, 46);
+		super(instance, 16);
 	}
 
 	@Override

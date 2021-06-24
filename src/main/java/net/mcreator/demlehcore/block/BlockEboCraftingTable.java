@@ -22,7 +22,7 @@ public class BlockEboCraftingTable extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:ebocraftingtable")
 	public static final Block block = null;
 	public BlockEboCraftingTable(ElementsDemlehcoreMod instance) {
-		super(instance, 86);
+		super(instance, 53);
 	}
 
 	@Override

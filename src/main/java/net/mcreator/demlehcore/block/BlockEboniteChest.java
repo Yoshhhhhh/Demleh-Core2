@@ -54,7 +54,7 @@ public class BlockEboniteChest extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:ebonite_chest")
 	public static final Block block = null;
 	public BlockEboniteChest(ElementsDemlehcoreMod instance) {
-		super(instance, 193);
+		super(instance, 74);
 	}
 
 	@Override

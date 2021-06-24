@@ -27,7 +27,7 @@ public class ItemNuggetMineraiInterdit extends ElementsDemlehcoreMod.ModElement 
 	@GameRegistry.ObjectHolder("demlehcore:nugget_minerai_interdit")
 	public static final Item block = null;
 	public ItemNuggetMineraiInterdit(ElementsDemlehcoreMod instance) {
-		super(instance, 207);
+		super(instance, 14);
 	}
 
 	@Override

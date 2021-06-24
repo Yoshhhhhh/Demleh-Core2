@@ -11,7 +11,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureDynamiteProcedure extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureDynamiteProcedure(ElementsDemlehcoreMod instance) {
-		super(instance, 106);
+		super(instance, 142);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

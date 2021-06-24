@@ -29,7 +29,7 @@ public class ItemEboniteSword extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:ebonitesword")
 	public static final Item block = null;
 	public ItemEboniteSword(ElementsDemlehcoreMod instance) {
-		super(instance, 55);
+		super(instance, 30);
 	}
 
 	@Override

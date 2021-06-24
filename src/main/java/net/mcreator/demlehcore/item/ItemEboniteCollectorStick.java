@@ -9,10 +9,10 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
+import net.mcreator.demlehcore.creativetab.TabDemleh;
 import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 
 @ElementsDemlehcoreMod.ModElement.Tag
@@ -20,7 +20,7 @@ public class ItemEboniteCollectorStick extends ElementsDemlehcoreMod.ModElement 
 	@GameRegistry.ObjectHolder("demlehcore:ebonite_collector_stick")
 	public static final Item block = null;
 	public ItemEboniteCollectorStick(ElementsDemlehcoreMod instance) {
-		super(instance, 221);
+		super(instance, 80);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class ItemEboniteCollectorStick extends ElementsDemlehcoreMod.ModElement 
 			maxStackSize = 64;
 			setUnlocalizedName("ebonite_collector_stick");
 			setRegistryName("ebonite_collector_stick");
-			setCreativeTab(CreativeTabs.MISC);
+			setCreativeTab(TabDemleh.tab);
 		}
 
 		@Override

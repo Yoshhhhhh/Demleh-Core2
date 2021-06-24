@@ -20,7 +20,7 @@ public class ItemAmazoniteIngot extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:amazoniteingot")
 	public static final Item block = null;
 	public ItemAmazoniteIngot(ElementsDemlehcoreMod instance) {
-		super(instance, 5);
+		super(instance, 8);
 	}
 
 	@Override

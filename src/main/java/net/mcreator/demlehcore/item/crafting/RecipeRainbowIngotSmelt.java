@@ -13,7 +13,7 @@ import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class RecipeRainbowIngotSmelt extends ElementsDemlehcoreMod.ModElement {
 	public RecipeRainbowIngotSmelt(ElementsDemlehcoreMod instance) {
-		super(instance, 96);
+		super(instance, 134);
 	}
 
 	@Override

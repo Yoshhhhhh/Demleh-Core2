@@ -27,7 +27,7 @@ public class ItemAmazoniteAxe extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:amazonite_axe")
 	public static final Item block = null;
 	public ItemAmazoniteAxe(ElementsDemlehcoreMod instance) {
-		super(instance, 157);
+		super(instance, 37);
 	}
 
 	@Override

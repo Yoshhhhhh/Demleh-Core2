@@ -39,7 +39,7 @@ public class GuiDemlehMachineGUI extends ElementsDemlehcoreMod.ModElement {
 	public static int GUIID = 2;
 	public static HashMap guistate = new HashMap();
 	public GuiDemlehMachineGUI(ElementsDemlehcoreMod instance) {
-		super(instance, 138);
+		super(instance, 169);
 	}
 
 	@Override

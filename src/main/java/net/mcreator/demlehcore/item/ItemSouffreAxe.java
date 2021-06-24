@@ -27,7 +27,7 @@ public class ItemSouffreAxe extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:souffre_axe")
 	public static final Item block = null;
 	public ItemSouffreAxe(ElementsDemlehcoreMod instance) {
-		super(instance, 159);
+		super(instance, 38);
 	}
 
 	@Override

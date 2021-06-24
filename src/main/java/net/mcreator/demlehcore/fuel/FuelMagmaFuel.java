@@ -9,7 +9,7 @@ import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class FuelMagmaFuel extends ElementsDemlehcoreMod.ModElement {
 	public FuelMagmaFuel(ElementsDemlehcoreMod instance) {
-		super(instance, 165);
+		super(instance, 180);
 	}
 
 	@Override

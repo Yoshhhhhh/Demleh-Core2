@@ -20,7 +20,7 @@ public class ItemSharpnessModifier extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:sharpness_modifier")
 	public static final Item block = null;
 	public ItemSharpnessModifier(ElementsDemlehcoreMod instance) {
-		super(instance, 216);
+		super(instance, 76);
 	}
 
 	@Override

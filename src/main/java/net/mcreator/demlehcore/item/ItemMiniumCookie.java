@@ -27,7 +27,7 @@ public class ItemMiniumCookie extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:miniumcookie")
 	public static final Item block = null;
 	public ItemMiniumCookie(ElementsDemlehcoreMod instance) {
-		super(instance, 33);
+		super(instance, 58);
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class BlockMagmaOre extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:magmaore")
 	public static final Block block = null;
 	public BlockMagmaOre(ElementsDemlehcoreMod instance) {
-		super(instance, 71);
+		super(instance, 6);
 	}
 
 	@Override

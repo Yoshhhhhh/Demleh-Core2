@@ -29,7 +29,7 @@ public class ItemEboniteSuperAxe extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:ebonitesuperaxe")
 	public static final Item block = null;
 	public ItemEboniteSuperAxe(ElementsDemlehcoreMod instance) {
-		super(instance, 62);
+		super(instance, 51);
 	}
 
 	@Override

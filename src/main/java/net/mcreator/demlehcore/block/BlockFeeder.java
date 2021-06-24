@@ -33,7 +33,7 @@ public class BlockFeeder extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:feeder")
 	public static final Block block = null;
 	public BlockFeeder(ElementsDemlehcoreMod instance) {
-		super(instance, 88);
+		super(instance, 54);
 	}
 
 	@Override

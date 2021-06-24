@@ -26,7 +26,7 @@ import java.util.Iterator;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureMiniumAchievement extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureMiniumAchievement(ElementsDemlehcoreMod instance) {
-		super(instance, 136);
+		super(instance, 168);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

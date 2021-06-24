@@ -26,7 +26,7 @@ import java.util.Iterator;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureEboniteAchievement extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureEboniteAchievement(ElementsDemlehcoreMod instance) {
-		super(instance, 130);
+		super(instance, 162);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -20,7 +20,7 @@ public class ItemGoodMusic extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:goodmusic")
 	public static final Item block = null;
 	public ItemGoodMusic(ElementsDemlehcoreMod instance) {
-		super(instance, 92);
+		super(instance, 64);
 	}
 
 	@Override

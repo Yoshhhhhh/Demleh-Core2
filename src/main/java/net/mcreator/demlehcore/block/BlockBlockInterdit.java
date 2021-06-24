@@ -22,7 +22,7 @@ public class BlockBlockInterdit extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:block_interdit")
 	public static final Block block = null;
 	public BlockBlockInterdit(ElementsDemlehcoreMod instance) {
-		super(instance, 213);
+		super(instance, 21);
 	}
 
 	@Override

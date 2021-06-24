@@ -20,7 +20,7 @@ public class ItemMiniumHammerHead extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:minium_hammer_head")
 	public static final Item block = null;
 	public ItemMiniumHammerHead(ElementsDemlehcoreMod instance) {
-		super(instance, 149);
+		super(instance, 49);
 	}
 
 	@Override

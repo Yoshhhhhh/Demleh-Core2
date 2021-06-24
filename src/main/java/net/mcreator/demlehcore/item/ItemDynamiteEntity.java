@@ -23,7 +23,7 @@ public class ItemDynamiteEntity extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:dynamiteentity")
 	public static final Item block = null;
 	public ItemDynamiteEntity(ElementsDemlehcoreMod instance) {
-		super(instance, 107);
+		super(instance, 143);
 	}
 
 	@Override

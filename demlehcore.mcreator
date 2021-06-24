@@ -39,7 +39,7 @@
     {
       "name": "AmazoniteIngot",
       "type": "item",
-      "sortid": 5,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -47,7 +47,7 @@
     {
       "name": "SouffreNugget",
       "type": "item",
-      "sortid": 6,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -55,7 +55,7 @@
     {
       "name": "Souffrenuggetcraft",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -63,7 +63,7 @@
     {
       "name": "Minium",
       "type": "item",
-      "sortid": 8,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -71,7 +71,7 @@
     {
       "name": "Miniumcraft",
       "type": "recipe",
-      "sortid": 9,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -79,7 +79,7 @@
     {
       "name": "Ebonite",
       "type": "item",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -87,7 +87,7 @@
     {
       "name": "Ebonitecraft",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -95,7 +95,7 @@
     {
       "name": "AmazoniteArmor",
       "type": "armor",
-      "sortid": 12,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -109,7 +109,7 @@
     {
       "name": "MiniumArmor",
       "type": "armor",
-      "sortid": 14,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -123,7 +123,7 @@
     {
       "name": "EboniteArmor",
       "type": "armor",
-      "sortid": 15,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -137,7 +137,7 @@
     {
       "name": "SouffreArmor",
       "type": "armor",
-      "sortid": 16,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -151,7 +151,7 @@
     {
       "name": "AmazoniteHelmet",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -159,7 +159,7 @@
     {
       "name": "AmazoniteChestplate",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -167,7 +167,7 @@
     {
       "name": "AmazoniteLeggings",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -175,7 +175,7 @@
     {
       "name": "AmazoniteBoots",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -183,7 +183,7 @@
     {
       "name": "SouffreHelmet",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -191,7 +191,7 @@
     {
       "name": "SouffreChestplate",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -199,7 +199,7 @@
     {
       "name": "SouffreLeggings",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -207,7 +207,7 @@
     {
       "name": "SouffreBoots",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -215,7 +215,7 @@
     {
       "name": "MiniumHelmet",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -223,7 +223,7 @@
     {
       "name": "MiniumChestplate",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -231,7 +231,7 @@
     {
       "name": "MiniumLeggings",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -239,7 +239,7 @@
     {
       "name": "MiniumBoots",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -247,7 +247,7 @@
     {
       "name": "EboniteHelmet",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -255,7 +255,7 @@
     {
       "name": "EboniteChestplate",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -263,7 +263,7 @@
     {
       "name": "EboniteLeggings",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -271,7 +271,7 @@
     {
       "name": "EboniteBoots",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -279,7 +279,7 @@
     {
       "name": "MiniumCookieFoodEaten",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -295,7 +295,7 @@
     {
       "name": "MiniumCookie",
       "type": "food",
-      "sortid": 33,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -303,7 +303,7 @@
     {
       "name": "MiniumCookieCraft",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -311,7 +311,7 @@
     {
       "name": "Amazonitepickaxe",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -319,7 +319,7 @@
     {
       "name": "SouffrePickaxe",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -327,7 +327,7 @@
     {
       "name": "MiniumPickaxe",
       "type": "tool",
-      "sortid": 37,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -335,7 +335,7 @@
     {
       "name": "EbonitePickaxe",
       "type": "tool",
-      "sortid": 38,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -343,7 +343,7 @@
     {
       "name": "AmazonitePickCraft",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -351,7 +351,7 @@
     {
       "name": "SouffrePickCraft",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -359,7 +359,7 @@
     {
       "name": "MiniumPickCraft",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -367,7 +367,7 @@
     {
       "name": "EbonitePickCraft",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -375,7 +375,7 @@
     {
       "name": "AmazoniteBlock",
       "type": "block",
-      "sortid": 43,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -383,7 +383,7 @@
     {
       "name": "CreeperEggCraft",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -391,7 +391,7 @@
     {
       "name": "AmazoniteBlockCraft",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -399,7 +399,7 @@
     {
       "name": "SouffreBlock",
       "type": "block",
-      "sortid": 46,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -407,7 +407,7 @@
     {
       "name": "SouffreBlockCraft",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -415,7 +415,7 @@
     {
       "name": "MiniumBlock",
       "type": "block",
-      "sortid": 48,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -423,7 +423,7 @@
     {
       "name": "MiniumBlockCraft",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -431,7 +431,7 @@
     {
       "name": "EboniteBlock",
       "type": "block",
-      "sortid": 50,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -439,7 +439,7 @@
     {
       "name": "EboniteBlockCraft",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -447,7 +447,7 @@
     {
       "name": "AmazoniteSword",
       "type": "tool",
-      "sortid": 52,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -455,7 +455,7 @@
     {
       "name": "SouffreSword",
       "type": "tool",
-      "sortid": 53,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -463,7 +463,7 @@
     {
       "name": "MiniumSword",
       "type": "tool",
-      "sortid": 54,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -471,7 +471,7 @@
     {
       "name": "EboniteSword",
       "type": "tool",
-      "sortid": 55,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -479,7 +479,7 @@
     {
       "name": "AmazoniteSwordCraft",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -487,7 +487,7 @@
     {
       "name": "SouffreSwordCraft",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -495,7 +495,7 @@
     {
       "name": "MiniumSwordCraft",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -503,7 +503,7 @@
     {
       "name": "EboniteSwordCraft",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -511,7 +511,7 @@
     {
       "name": "SouffreStick",
       "type": "item",
-      "sortid": 60,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -519,7 +519,7 @@
     {
       "name": "SouffreStickCraft",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -527,7 +527,7 @@
     {
       "name": "EboniteSuperAxe",
       "type": "tool",
-      "sortid": 62,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -535,7 +535,7 @@
     {
       "name": "BlackObsidian",
       "type": "block",
-      "sortid": 64,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -543,7 +543,7 @@
     {
       "name": "BlackObsidianCraft",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -551,7 +551,7 @@
     {
       "name": "HamburgerFoodEaten2",
       "type": "procedure",
-      "sortid": 66,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -567,7 +567,7 @@
     {
       "name": "Hamburger",
       "type": "food",
-      "sortid": 66,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -575,7 +575,7 @@
     {
       "name": "BurgerCraft",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -583,7 +583,7 @@
     {
       "name": "Burgercraft2",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -591,7 +591,7 @@
     {
       "name": "MagmaNugget",
       "type": "item",
-      "sortid": 69,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -599,7 +599,7 @@
     {
       "name": "Magma",
       "type": "item",
-      "sortid": 70,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -607,7 +607,7 @@
     {
       "name": "MagmaOre",
       "type": "block",
-      "sortid": 71,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -615,7 +615,7 @@
     {
       "name": "MagmaCraft",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -623,7 +623,7 @@
     {
       "name": "AmazoniteAppleFoodEaten",
       "type": "procedure",
-      "sortid": 73,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -639,7 +639,7 @@
     {
       "name": "AmazoniteApple",
       "type": "food",
-      "sortid": 73,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -647,7 +647,7 @@
     {
       "name": "MagmaAppleFoodEaten",
       "type": "procedure",
-      "sortid": 75,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -663,7 +663,7 @@
     {
       "name": "MagmaApple",
       "type": "food",
-      "sortid": 75,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -671,7 +671,7 @@
     {
       "name": "EboniteAppleFoodEaten",
       "type": "procedure",
-      "sortid": 77,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -687,7 +687,7 @@
     {
       "name": "EboniteApple",
       "type": "food",
-      "sortid": 78,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -695,7 +695,7 @@
     {
       "name": "EboniteMachine",
       "type": "block",
-      "sortid": 80,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -703,7 +703,7 @@
     {
       "name": "EboMachineRecipe",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -711,7 +711,7 @@
     {
       "name": "EboniteHead",
       "type": "item",
-      "sortid": 82,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -719,7 +719,7 @@
     {
       "name": "EboMachineProcedure",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -747,7 +747,7 @@
     {
       "name": "EboMachineGUI",
       "type": "gui",
-      "sortid": 83,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -757,7 +757,7 @@
     {
       "name": "OpenEboMachineGUI",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -789,7 +789,7 @@
     {
       "name": "EboniteHeadCraft",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -797,7 +797,7 @@
     {
       "name": "EboCraftingTable",
       "type": "block",
-      "sortid": 86,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -805,7 +805,7 @@
     {
       "name": "EboCraftingtableCraft",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -813,7 +813,7 @@
     {
       "name": "Feeder",
       "type": "block",
-      "sortid": 88,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -821,7 +821,7 @@
     {
       "name": "FeederProcedure",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -837,7 +837,7 @@
     {
       "name": "FeederCraft",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -845,7 +845,7 @@
     {
       "name": "YG",
       "type": "musicdisc",
-      "sortid": 91,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -853,7 +853,7 @@
     {
       "name": "GoodMusic",
       "type": "musicdisc",
-      "sortid": 92,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -861,7 +861,7 @@
     {
       "name": "RickrollCraft",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -869,7 +869,7 @@
     {
       "name": "RainbowOre",
       "type": "block",
-      "sortid": 94,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -877,7 +877,7 @@
     {
       "name": "RainbowIngot",
       "type": "item",
-      "sortid": 95,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -885,7 +885,7 @@
     {
       "name": "RainbowIngotSmelt",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -893,7 +893,7 @@
     {
       "name": "RainbowBlock",
       "type": "block",
-      "sortid": 97,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -901,7 +901,7 @@
     {
       "name": "RainbowOreCraft",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -909,7 +909,7 @@
     {
       "name": "RainbowBlockCraft",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -917,7 +917,7 @@
     {
       "name": "AmazoniteBlockToIngot",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -925,7 +925,7 @@
     {
       "name": "SouffreBlockToNugget",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -933,7 +933,7 @@
     {
       "name": "MiniumBlockToIngot",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -941,7 +941,7 @@
     {
       "name": "EboniteBlockToEbonite",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -949,7 +949,7 @@
     {
       "name": "Demleh",
       "type": "tab",
-      "sortid": 104,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -957,7 +957,7 @@
     {
       "name": "Dynamite",
       "type": "gun",
-      "sortid": 105,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -967,7 +967,7 @@
     {
       "name": "DynamiteProcedure",
       "type": "procedure",
-      "sortid": 106,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -995,7 +995,7 @@
     {
       "name": "DynamiteEntity",
       "type": "item",
-      "sortid": 107,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1003,7 +1003,7 @@
     {
       "name": "DynamiteCraft",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1011,7 +1011,7 @@
     {
       "name": "BigDynamiteProcedure",
       "type": "procedure",
-      "sortid": 109,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1039,7 +1039,7 @@
     {
       "name": "BigDynamiteEntity",
       "type": "item",
-      "sortid": 110,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1047,7 +1047,7 @@
     {
       "name": "BigDynamite",
       "type": "gun",
-      "sortid": 109,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1057,7 +1057,7 @@
     {
       "name": "DynamiteProcedure2",
       "type": "procedure",
-      "sortid": 111,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1073,7 +1073,7 @@
     {
       "name": "BigDynamiteProcedure2",
       "type": "procedure",
-      "sortid": 112,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1089,7 +1089,7 @@
     {
       "name": "BigDynamiteCraft",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1097,7 +1097,7 @@
     {
       "name": "BlackObsiPhase2",
       "type": "block",
-      "sortid": 114,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1105,7 +1105,7 @@
     {
       "name": "BlackObsiPhase3",
       "type": "block",
-      "sortid": 115,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1113,7 +1113,7 @@
     {
       "name": "BlackObsiPhase1A2",
       "type": "procedure",
-      "sortid": 117,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1141,7 +1141,7 @@
     {
       "name": "BlackObsiPhase2A3",
       "type": "procedure",
-      "sortid": 118,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1169,7 +1169,7 @@
     {
       "name": "AmazoniteProcedure",
       "type": "procedure",
-      "sortid": 119,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1185,7 +1185,7 @@
     {
       "name": "MagmaProcedure",
       "type": "procedure",
-      "sortid": 123,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1201,7 +1201,7 @@
     {
       "name": "XPBreakBlackObsi",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1229,7 +1229,7 @@
     {
       "name": "EboniteBreakNotify",
       "type": "procedure",
-      "sortid": 125,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1261,7 +1261,7 @@
     {
       "name": "SouffreXP",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1282,7 +1282,7 @@
     {
       "name": "MiniumXP",
       "type": "procedure",
-      "sortid": 127,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1303,7 +1303,7 @@
     {
       "name": "EboniteXP",
       "type": "procedure",
-      "sortid": 128,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1324,7 +1324,7 @@
     {
       "name": "EboniteFirstTime",
       "type": "achievement",
-      "sortid": 129,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1333,7 +1333,7 @@
     {
       "name": "EboniteAchievement",
       "type": "procedure",
-      "sortid": 130,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1366,7 +1366,7 @@
     {
       "name": "AmazoniteFirstTime",
       "type": "achievement",
-      "sortid": 131,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1375,7 +1375,7 @@
     {
       "name": "AmazoniteAchievement",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1408,7 +1408,7 @@
     {
       "name": "SouffreFirstTime",
       "type": "achievement",
-      "sortid": 133,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1417,7 +1417,7 @@
     {
       "name": "SouffreProcedure",
       "type": "procedure",
-      "sortid": 134,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1450,7 +1450,7 @@
     {
       "name": "MiniumFirstTime",
       "type": "achievement",
-      "sortid": 135,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1459,7 +1459,7 @@
     {
       "name": "MiniumAchievement",
       "type": "procedure",
-      "sortid": 136,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1492,7 +1492,7 @@
     {
       "name": "DemlehMachine",
       "type": "block",
-      "sortid": 137,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1501,7 +1501,7 @@
     {
       "name": "DemlehMachineGUI",
       "type": "gui",
-      "sortid": 138,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1512,7 +1512,7 @@
     {
       "name": "OpenDemlehMachine",
       "type": "procedure",
-      "sortid": 139,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1545,7 +1545,7 @@
     {
       "name": "DemlehMachineProcedure",
       "type": "procedure",
-      "sortid": 140,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1574,7 +1574,7 @@
     {
       "name": "DemlehMachineCraft",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1583,7 +1583,7 @@
     {
       "name": "HammerProcedure",
       "type": "procedure",
-      "sortid": 142,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1616,7 +1616,7 @@
     {
       "name": "MiniumHammer",
       "type": "tool",
-      "sortid": 143,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1625,7 +1625,7 @@
     {
       "name": "EboniteHammer",
       "type": "tool",
-      "sortid": 144,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1634,7 +1634,7 @@
     {
       "name": "MiniumSmeltHammer",
       "type": "tool",
-      "sortid": 145,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1643,7 +1643,7 @@
     {
       "name": "EboniteSmeltHammer",
       "type": "tool",
-      "sortid": 146,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1652,7 +1652,7 @@
     {
       "name": "HammerSmeltProcedure",
       "type": "procedure",
-      "sortid": 147,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1685,7 +1685,7 @@
     {
       "name": "HammerSmeltProcedure2",
       "type": "procedure",
-      "sortid": 148,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1718,7 +1718,7 @@
     {
       "name": "MiniumHammerHead",
       "type": "item",
-      "sortid": 149,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1727,7 +1727,7 @@
     {
       "name": "EboniteHammerHead",
       "type": "item",
-      "sortid": 150,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1736,7 +1736,7 @@
     {
       "name": "MiniumHammerHeadCraft",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1745,7 +1745,7 @@
     {
       "name": "EboniteHammerHeadCraft",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1754,7 +1754,7 @@
     {
       "name": "SmeltModifier",
       "type": "item",
-      "sortid": 153,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1763,7 +1763,7 @@
     {
       "name": "SmeltModifierCraft",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1772,7 +1772,7 @@
     {
       "name": "MagmaHelmet",
       "type": "armor",
-      "sortid": 155,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1787,7 +1787,7 @@
     {
       "name": "MagmaHelmetProcedure",
       "type": "procedure",
-      "sortid": 156,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1804,7 +1804,7 @@
     {
       "name": "AmazoniteAxe",
       "type": "tool",
-      "sortid": 157,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1813,7 +1813,7 @@
     {
       "name": "AmazoniteShovel",
       "type": "tool",
-      "sortid": 158,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1822,7 +1822,7 @@
     {
       "name": "SouffreAxe",
       "type": "tool",
-      "sortid": 159,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1831,7 +1831,7 @@
     {
       "name": "SouffreShovel",
       "type": "tool",
-      "sortid": 160,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1840,7 +1840,7 @@
     {
       "name": "MiniumAxe",
       "type": "tool",
-      "sortid": 161,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1849,7 +1849,7 @@
     {
       "name": "MiniumShovel",
       "type": "tool",
-      "sortid": 162,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1858,7 +1858,7 @@
     {
       "name": "EboniteAxe",
       "type": "tool",
-      "sortid": 163,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1867,7 +1867,7 @@
     {
       "name": "EboniteShovel",
       "type": "tool",
-      "sortid": 164,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1876,7 +1876,7 @@
     {
       "name": "MagmaFuel",
       "type": "fuel",
-      "sortid": 165,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1885,7 +1885,7 @@
     {
       "name": "XPBushStage0",
       "type": "block",
-      "sortid": 166,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1894,7 +1894,7 @@
     {
       "name": "XPBushStage1",
       "type": "block",
-      "sortid": 167,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1903,7 +1903,7 @@
     {
       "name": "XPBushStage2",
       "type": "block",
-      "sortid": 168,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1912,7 +1912,7 @@
     {
       "name": "XPBushStage3",
       "type": "block",
-      "sortid": 169,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1921,7 +1921,7 @@
     {
       "name": "XPBushStage1UpdateTick",
       "type": "procedure",
-      "sortid": 170,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1950,7 +1950,7 @@
     {
       "name": "XPBerry",
       "type": "food",
-      "sortid": 171,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1959,7 +1959,7 @@
     {
       "name": "XPBushOnRightClick",
       "type": "procedure",
-      "sortid": 172,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1988,7 +1988,7 @@
     {
       "name": "XPBerryOnFoodEaten",
       "type": "procedure",
-      "sortid": 173,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2005,7 +2005,7 @@
     {
       "name": "AmazoniteAxeCraft",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2014,7 +2014,7 @@
     {
       "name": "AmazoniteAxeCraft2",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2023,7 +2023,7 @@
     {
       "name": "AmazoniteShovelCraft",
       "type": "recipe",
-      "sortid": 176,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2032,7 +2032,7 @@
     {
       "name": "SouffreAxeCraft",
       "type": "recipe",
-      "sortid": 177,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2041,7 +2041,7 @@
     {
       "name": "SouffreAxeCraft2",
       "type": "recipe",
-      "sortid": 178,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2050,7 +2050,7 @@
     {
       "name": "SouffreShovelCraft",
       "type": "recipe",
-      "sortid": 179,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2059,7 +2059,7 @@
     {
       "name": "MiniumAxeCraft",
       "type": "recipe",
-      "sortid": 180,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2068,7 +2068,7 @@
     {
       "name": "MiniumAxeCraft2",
       "type": "recipe",
-      "sortid": 181,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2077,7 +2077,7 @@
     {
       "name": "MiniumShovelCraft",
       "type": "recipe",
-      "sortid": 182,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2086,7 +2086,7 @@
     {
       "name": "EboniteAxeCraft",
       "type": "recipe",
-      "sortid": 183,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2095,7 +2095,7 @@
     {
       "name": "EboniteAxeCraft2",
       "type": "recipe",
-      "sortid": 184,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2104,7 +2104,7 @@
     {
       "name": "EboniteShovelCraft",
       "type": "recipe",
-      "sortid": 185,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2113,7 +2113,7 @@
     {
       "name": "UnclaimFinderProcedure",
       "type": "procedure",
-      "sortid": 186,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2150,7 +2150,7 @@
     {
       "name": "RadarCore",
       "type": "item",
-      "sortid": 188,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2159,7 +2159,7 @@
     {
       "name": "RadarCoreCraft",
       "type": "recipe",
-      "sortid": 189,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2168,7 +2168,7 @@
     {
       "name": "BaseDetectorCraft",
       "type": "recipe",
-      "sortid": 190,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2177,7 +2177,7 @@
     {
       "name": "BaseDetector",
       "type": "tool",
-      "sortid": 191,
+      "sortid": 70,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -2186,7 +2186,7 @@
     {
       "name": "MiniumChest",
       "type": "block",
-      "sortid": 192,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2195,7 +2195,7 @@
     {
       "name": "EboniteChest",
       "type": "block",
-      "sortid": 193,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2204,7 +2204,7 @@
     {
       "name": "MiniumChestGUI",
       "type": "gui",
-      "sortid": 194,
+      "sortid": 202,
       "compiles": true,
       "locked_code": true,
       "ids": {
@@ -2215,7 +2215,7 @@
     {
       "name": "ChestSoundOpenProcedure",
       "type": "procedure",
-      "sortid": 195,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2244,7 +2244,7 @@
     {
       "name": "ChestSoundCloseProcedure",
       "type": "procedure",
-      "sortid": 196,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2273,7 +2273,7 @@
     {
       "name": "EboniteChestGUI",
       "type": "gui",
-      "sortid": 197,
+      "sortid": 205,
       "compiles": true,
       "locked_code": true,
       "ids": {
@@ -2284,7 +2284,7 @@
     {
       "name": "AmazoniteChest",
       "type": "block",
-      "sortid": 198,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2293,7 +2293,7 @@
     {
       "name": "SouffreChest",
       "type": "block",
-      "sortid": 199,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2302,7 +2302,7 @@
     {
       "name": "AmazoniteChestGUI",
       "type": "gui",
-      "sortid": 200,
+      "sortid": 206,
       "compiles": true,
       "locked_code": true,
       "ids": {
@@ -2313,7 +2313,7 @@
     {
       "name": "SouffreChestGUI",
       "type": "gui",
-      "sortid": 201,
+      "sortid": 207,
       "compiles": true,
       "locked_code": true,
       "ids": {
@@ -2324,7 +2324,7 @@
     {
       "name": "AmazoniteChestCraft",
       "type": "recipe",
-      "sortid": 202,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2333,7 +2333,7 @@
     {
       "name": "SouffreChestCraft",
       "type": "recipe",
-      "sortid": 203,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2342,7 +2342,7 @@
     {
       "name": "MiniumChestCraft",
       "type": "recipe",
-      "sortid": 204,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2351,7 +2351,7 @@
     {
       "name": "EboniteChestCraft",
       "type": "recipe",
-      "sortid": 205,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2360,7 +2360,7 @@
     {
       "name": "EboniteCollector",
       "type": "tool",
-      "sortid": 206,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2369,7 +2369,7 @@
     {
       "name": "NuggetMineraiInterdit",
       "type": "item",
-      "sortid": 207,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2378,7 +2378,7 @@
     {
       "name": "EpeeInterditeProcedure",
       "type": "procedure",
-      "sortid": 209,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2399,7 +2399,7 @@
     {
       "name": "EpeeInterditeProcedure2",
       "type": "procedure",
-      "sortid": 210,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2428,7 +2428,7 @@
     {
       "name": "EpeeInterdite",
       "type": "gun",
-      "sortid": 210,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -2439,7 +2439,7 @@
     {
       "name": "MineraiInterditBreakNotify",
       "type": "procedure",
-      "sortid": 211,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2472,7 +2472,7 @@
     {
       "name": "MineraiInterditHurtProcedure",
       "type": "procedure",
-      "sortid": 212,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2489,7 +2489,7 @@
     {
       "name": "BlockInterdit",
       "type": "block",
-      "sortid": 213,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2498,7 +2498,7 @@
     {
       "name": "CraftBlockInterdit",
       "type": "recipe",
-      "sortid": 214,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2507,7 +2507,7 @@
     {
       "name": "EpeeInterditeProcedure3",
       "type": "procedure",
-      "sortid": 215,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2524,7 +2524,7 @@
     {
       "name": "SharpnessModifier",
       "type": "item",
-      "sortid": 216,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2533,7 +2533,7 @@
     {
       "name": "ProhibitedStick",
       "type": "item",
-      "sortid": 217,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2542,7 +2542,7 @@
     {
       "name": "EboniteCollectorHead",
       "type": "item",
-      "sortid": 220,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2551,7 +2551,7 @@
     {
       "name": "EboniteCollectorRecipe",
       "type": "recipe",
-      "sortid": 220,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2560,7 +2560,7 @@
     {
       "name": "EboniteCollectorStick",
       "type": "item",
-      "sortid": 221,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2569,7 +2569,7 @@
     {
       "name": "EboniteCollectorStickRecipe",
       "type": "recipe",
-      "sortid": 222,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2578,7 +2578,7 @@
     {
       "name": "MachineInterdite",
       "type": "block",
-      "sortid": 223,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2587,7 +2587,7 @@
     {
       "name": "Machineinterditerecipe",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2596,7 +2596,7 @@
     {
       "name": "MachineInterditeGUI",
       "type": "gui",
-      "sortid": 225,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -2607,7 +2607,7 @@
     {
       "name": "MachineInterditeProcedure",
       "type": "procedure",
-      "sortid": 226,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2636,7 +2636,7 @@
     {
       "name": "SharpnessModifierCraft",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2645,7 +2645,7 @@
     {
       "name": "MineraiInterdit",
       "type": "block",
-      "sortid": 228,
+      "sortid": 7,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -2740,10 +2740,10 @@
       "item.record.yg.desc": ":)",
       "item.demlehcore.ebonite_axe": "Ebonite axe",
       "item.bigdynamiteentity.name": "Big Dynamite Entity",
-      "block.demlehcore.demleh_machine": "Demleh Machine",
       "item.epee_interdite.name": "Épée Interdite",
-      "item.radar_core.name": "Radar Core",
+      "block.demlehcore.demleh_machine": "Demleh Machine",
       "block.demlehcore.souffre": "Souffre Ore",
+      "item.radar_core.name": "Radar Core",
       "item.demlehcore.eboniteapple": "Ebonite Apple",
       "item.ebonitearmorboots.name": "Ebonite Boots",
       "item.minium_axe.name": "Minium axe",
@@ -2756,8 +2756,8 @@
       "block.demlehcore.blackobsiphase2": "Black Obsi Phase2",
       "tile.ebocraftingtable.name": "Ebo Crafting Table",
       "tile.blackobsiphase3.name": "Black Obsi Phase3",
-      "block.demlehcore.feeder": "Feeder",
       "item.demlehcore.hamburger": "Hamburger",
+      "block.demlehcore.feeder": "Feeder",
       "item.ebonitearmorlegs.name": "Ebonite Leggings",
       "item.ebonite_axe.name": "Ebonite axe",
       "tile.amazoniteore.name": "Amazonite Ore",

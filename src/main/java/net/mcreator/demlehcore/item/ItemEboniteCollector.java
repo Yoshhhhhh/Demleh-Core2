@@ -24,7 +24,7 @@ public class ItemEboniteCollector extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:ebonite_collector")
 	public static final Item block = null;
 	public ItemEboniteCollector(ElementsDemlehcoreMod instance) {
-		super(instance, 206);
+		super(instance, 36);
 	}
 
 	@Override

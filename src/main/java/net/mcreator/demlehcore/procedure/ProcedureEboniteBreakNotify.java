@@ -20,7 +20,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureEboniteBreakNotify extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureEboniteBreakNotify(ElementsDemlehcoreMod instance) {
-		super(instance, 125);
+		super(instance, 157);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -23,7 +23,7 @@ public class ItemBigDynamiteEntity extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:bigdynamiteentity")
 	public static final Item block = null;
 	public ItemBigDynamiteEntity(ElementsDemlehcoreMod instance) {
-		super(instance, 110);
+		super(instance, 146);
 	}
 
 	@Override

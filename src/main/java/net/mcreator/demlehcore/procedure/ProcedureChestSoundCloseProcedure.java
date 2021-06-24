@@ -12,7 +12,7 @@ import java.util.Map;
 @ElementsDemlehcoreMod.ModElement.Tag
 public class ProcedureChestSoundCloseProcedure extends ElementsDemlehcoreMod.ModElement {
 	public ProcedureChestSoundCloseProcedure(ElementsDemlehcoreMod instance) {
-		super(instance, 196);
+		super(instance, 204);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -24,7 +24,7 @@ public class ItemMiniumPickaxe extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:miniumpickaxe")
 	public static final Item block = null;
 	public ItemMiniumPickaxe(ElementsDemlehcoreMod instance) {
-		super(instance, 37);
+		super(instance, 34);
 	}
 
 	@Override
