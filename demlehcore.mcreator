@@ -2395,6 +2395,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "itemstack",
             "type": "itemstack"
           }
@@ -2714,10 +2718,10 @@
       "item.record.yg.desc": ":)",
       "item.demlehcore.ebonite_axe": "Ebonite axe",
       "item.bigdynamiteentity.name": "Big Dynamite Entity",
-      "item.epee_interdite.name": "Épée Interdite",
       "block.demlehcore.demleh_machine": "Demleh Machine",
-      "block.demlehcore.souffre": "Souffre Ore",
+      "item.epee_interdite.name": "Épée Interdite",
       "item.radar_core.name": "Radar Core",
+      "block.demlehcore.souffre": "Souffre Ore",
       "item.demlehcore.eboniteapple": "Ebonite Apple",
       "item.ebonitearmorboots.name": "Ebonite Boots",
       "item.minium_axe.name": "Minium axe",
@@ -2730,8 +2734,8 @@
       "block.demlehcore.blackobsiphase2": "Black Obsi Phase2",
       "tile.ebocraftingtable.name": "Ebo Crafting Table",
       "tile.blackobsiphase3.name": "Black Obsi Phase3",
-      "item.demlehcore.hamburger": "Hamburger",
       "block.demlehcore.feeder": "Feeder",
+      "item.demlehcore.hamburger": "Hamburger",
       "item.ebonitearmorlegs.name": "Ebonite Leggings",
       "item.ebonite_axe.name": "Ebonite axe",
       "tile.amazoniteore.name": "Amazonite Ore",
@@ -2851,7 +2855,7 @@
       "item.miniumarmorboots.name": "Minium Boots",
       "item.demlehcore.ebonitearmor_leggings": "Ebonite Leggings",
       "item.demlehcore.souffre_shovel": "Souffre shovel",
-      "item.prohibited_stick.name": "Prohibited Stick",
+      "item.prohibited_stick.name": "Stick interdit",
       "item.demlehcore.miniumarmorhelmet": "Minium Helmet",
       "item.demlehcore.ebonitearmor_helmet": "Ebonite Helmet",
       "item.miniumsword.name": "Minium Sword",

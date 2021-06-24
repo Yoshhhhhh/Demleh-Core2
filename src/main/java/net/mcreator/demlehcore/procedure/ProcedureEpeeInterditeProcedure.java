@@ -1,6 +1,8 @@
 package net.mcreator.demlehcore.procedure;
 
 import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.Entity;
 
 import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 
@@ -14,10 +16,15 @@ public class ProcedureEpeeInterditeProcedure extends ElementsDemlehcoreMod.ModEl
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
+		if (dependencies.get("entity") == null) {
+			System.err.println("Failed to load dependency entity for procedure EpeeInterditeProcedure!");
+			return;
+		}
 		if (dependencies.get("itemstack") == null) {
 			System.err.println("Failed to load dependency itemstack for procedure EpeeInterditeProcedure!");
 			return;
 		}
+		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		{
 			ItemStack _ist = (itemstack);
@@ -26,5 +33,7 @@ public class ProcedureEpeeInterditeProcedure extends ElementsDemlehcoreMod.ModEl
 				_ist.setItemDamage(0);
 			}
 		}
+		if (entity instanceof EntityPlayer)
+			((EntityPlayer) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 60);
 	}
 }

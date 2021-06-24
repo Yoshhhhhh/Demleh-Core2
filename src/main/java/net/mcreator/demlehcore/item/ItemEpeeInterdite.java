@@ -121,6 +121,7 @@ public class ItemEpeeInterdite extends ElementsDemlehcoreMod.ModElement {
 					world.spawnEntity(entityarrow);
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
 					$_dependencies.put("itemstack", itemstack);
 					ProcedureEpeeInterditeProcedure.executeProcedure($_dependencies);
 				}
