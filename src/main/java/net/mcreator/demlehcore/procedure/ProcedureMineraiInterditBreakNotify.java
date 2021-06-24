@@ -50,7 +50,7 @@ public class ProcedureMineraiInterditBreakNotify extends ElementsDemlehcoreMod.M
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		if (((BlockMineraiInterdit.block.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock())
-				&& ((entity.posY) >= 110))) {
+				&& ((entity.posY) >= 95))) {
 			{
 				MinecraftServer mcserv = FMLCommonHandler.instance().getMinecraftServerInstance();
 				if (mcserv != null)

@@ -24,6 +24,7 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.Minecraft;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.material.MapColor;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
@@ -38,7 +39,7 @@ public class BlockMineraiInterdit extends ElementsDemlehcoreMod.ModElement {
 	@GameRegistry.ObjectHolder("demlehcore:minerai_interdit")
 	public static final Block block = null;
 	public BlockMineraiInterdit(ElementsDemlehcoreMod instance) {
-		super(instance, 206);
+		super(instance, 228);
 	}
 
 	@Override
@@ -61,11 +62,11 @@ public class BlockMineraiInterdit extends ElementsDemlehcoreMod.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 1; i++) {
+		for (int i = 0; i < 7/5; i++) {
 			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(40) + 110;
+			int y = random.nextInt(65) + 95;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 1, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 3, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;
@@ -82,11 +83,16 @@ public class BlockMineraiInterdit extends ElementsDemlehcoreMod.ModElement {
 			setUnlocalizedName("minerai_interdit");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 8);
-			setHardness(12F);
-			setResistance(10F);
+			setHardness(11.5F);
+			setResistance(15F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabDemleh.tab);
+		}
+
+		@Override
+		public MapColor getMapColor(IBlockState state, IBlockAccess blockAccess, BlockPos pos) {
+			return MapColor.YELLOW;
 		}
 
 		@Override

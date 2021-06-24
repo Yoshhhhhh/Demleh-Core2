@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Minerai Interdit",
+    "name": "Souffre Ore",
     "specialInfo": [],
-    "hardness": 12.0,
-    "resistance": 10.0,
+    "hardness": 11.5,
+    "resistance": 15.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -57,7 +57,7 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "YELLOW",
     "creativePickItem": {
       "value": ""
     },
@@ -110,9 +110,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 1,
-    "minGenerateHeight": 110,
-    "maxGenerateHeight": 150
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 3,
+    "minGenerateHeight": 95,
+    "maxGenerateHeight": 160
   }
 }
