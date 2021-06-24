@@ -2650,35 +2650,6 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "minerai_interdit"
-    },
-    {
-      "name": "Test",
-      "type": "procedure",
-      "sortid": 224,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "test",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -2769,10 +2740,10 @@
       "item.record.yg.desc": ":)",
       "item.demlehcore.ebonite_axe": "Ebonite axe",
       "item.bigdynamiteentity.name": "Big Dynamite Entity",
-      "block.demlehcore.demleh_machine": "Demleh Machine",
       "item.epee_interdite.name": "Épée Interdite",
-      "item.radar_core.name": "Radar Core",
+      "block.demlehcore.demleh_machine": "Demleh Machine",
       "block.demlehcore.souffre": "Souffre Ore",
+      "item.radar_core.name": "Radar Core",
       "item.demlehcore.eboniteapple": "Ebonite Apple",
       "item.ebonitearmorboots.name": "Ebonite Boots",
       "item.minium_axe.name": "Minium axe",
@@ -2785,8 +2756,8 @@
       "block.demlehcore.blackobsiphase2": "Black Obsi Phase2",
       "tile.ebocraftingtable.name": "Ebo Crafting Table",
       "tile.blackobsiphase3.name": "Black Obsi Phase3",
-      "block.demlehcore.feeder": "Feeder",
       "item.demlehcore.hamburger": "Hamburger",
+      "block.demlehcore.feeder": "Feeder",
       "item.ebonitearmorlegs.name": "Ebonite Leggings",
       "item.ebonite_axe.name": "Ebonite axe",
       "tile.amazoniteore.name": "Amazonite Ore",
