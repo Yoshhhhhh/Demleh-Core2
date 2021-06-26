@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "2",
+    "texture": "fragment_4",
     "customModelName": "Normal",
-    "name": "Stick interdit",
+    "name": "Fragment 4",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Demleh"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,

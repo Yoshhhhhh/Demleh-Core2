@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 8,
-    "ENTITY": 5
+    "ENTITY": 5,
+    "GUI": 8
   },
   "mod_elements": [
     {
@@ -2680,6 +2680,51 @@
           }
         ]
       }
+    },
+    {
+      "name": "Fragment",
+      "type": "item",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fragment"
+    },
+    {
+      "name": "Fragment2",
+      "type": "item",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fragment_2"
+    },
+    {
+      "name": "Fragment3",
+      "type": "item",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fragment_3"
+    },
+    {
+      "name": "Fragment4",
+      "type": "item",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fragment_4"
+    },
+    {
+      "name": "Fragment5",
+      "type": "item",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fragment_5"
     }
   ],
   "variable_elements": [],
@@ -2800,6 +2845,7 @@
       "item.demlehcore.ebonitearmorhelmet": "Ebonite Helmet",
       "block.demlehcore.miniumblock": "Minium Block",
       "advancements.minium_first_time.descr": "Almost there!",
+      "item.fragment_4.name": "Fragment 4",
       "item.demlehcore.amazonitearmor_chestplate": "Amazonite Chestplate",
       "item.demlehcore.souffrearmorboots": "Souffre Boots",
       "item.nugget_minerai_interdit.name": "Nugget interdit",
@@ -2815,6 +2861,7 @@
       "item.miniumcookie.name": "Minium Cookie",
       "item.demlehcore.souffrearmorlegs": "Souffre Leggings",
       "advancements.souffre_first_time.title": "Souffre found!",
+      "item.fragment.name": "Fragment",
       "item.demlehcore.magma_helmet_leggings": "Magma Helmet Leggings",
       "item.demlehcore.bigdynamite": "Big Dynamite",
       "tile.xp_bush_stage_0.name": "XP Bush",
@@ -2834,6 +2881,7 @@
       "item.demlehcore.minium": "Minium",
       "item.minium_shovel.name": "Minium shovel",
       "item.ebonitehead.name": "Ebonite Head",
+      "item.fragment_3.name": "Fragment 3",
       "item.amazonite_shovel.name": "Amazonite shovel",
       "block.demlehcore.magmaore": "Magma Ore",
       "item.demlehcore.dynamiteentity": "Dynamite Entity",
@@ -2879,6 +2927,7 @@
       "item.demlehcore.souffrearmorbody": "Souffre Chestplate",
       "item.demlehcore.magmaapple": "Magma Apple",
       "item.demlehcore.goodmusic.desc": "....:)",
+      "item.fragment_2.name": "Fragment 2",
       "tile.rainbowblock.name": "Rainbow Block",
       "item.demlehcore.miniumpickaxe": "Minium Pickaxe",
       "tile.block_interdit.name": "Block Interdit",
@@ -2997,6 +3046,7 @@
       "item.souffrearmorboots.name": "Souffre Boots",
       "item.rainbowingot.name": "Rainbow Ingot",
       "item.ebonitearmorhelmet.name": "Ebonite Helmet",
+      "item.fragment_5.name": "Fragment 5",
       "item.record.goodmusic.desc": "....:)"
     }
   },
