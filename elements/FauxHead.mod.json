@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "faux_head",
+    "texture": "fauxhead2",
     "customModelName": "Normal",
     "name": "Faux Head",
     "rarity": "COMMON",
