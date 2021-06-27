@@ -2811,7 +2811,7 @@
       "name": "FauxInterdite5",
       "type": "tool",
       "sortid": 237,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "ids": {},
       "registry_name": "faux_interdite_5"
@@ -2872,6 +2872,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "faux_interdite_5_craft"
+    },
+    {
+      "name": "FauxHead",
+      "type": "item",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faux_head"
     }
   ],
   "variable_elements": [],
@@ -2962,8 +2971,8 @@
       "item.record.yg.desc": ":)",
       "item.demlehcore.ebonite_axe": "Ebonite axe",
       "item.bigdynamiteentity.name": "Big Dynamite Entity",
-      "item.epee_interdite.name": "Épée Interdite",
       "block.demlehcore.demleh_machine": "Demleh Machine",
+      "item.epee_interdite.name": "Épée Interdite",
       "item.radar_core.name": "Radar Core",
       "block.demlehcore.souffre": "Souffre Ore",
       "item.faux_interdite.name": "Faux Interdite",
@@ -2979,8 +2988,8 @@
       "block.demlehcore.blackobsiphase2": "Black Obsi Phase2",
       "tile.ebocraftingtable.name": "Ebo Crafting Table",
       "tile.blackobsiphase3.name": "Black Obsi Phase3",
-      "item.demlehcore.hamburger": "Hamburger",
       "block.demlehcore.feeder": "Feeder",
+      "item.demlehcore.hamburger": "Hamburger",
       "item.ebonitearmorlegs.name": "Ebonite Leggings",
       "item.ebonite_axe.name": "Ebonite axe",
       "tile.amazoniteore.name": "Amazonite Ore",
@@ -3044,6 +3053,7 @@
       "item.demlehcore.ebonite_smelt_hammer": "Ebonite Smelt Hammer",
       "item.sharpness_modifier.name": "Sharpness Modifier",
       "item.souffre_shovel.name": "Souffre shovel",
+      "item.faux_head.name": "Faux Head",
       "item.ebonite_shovel.name": "Ebonite shovel",
       "item.ebonitesword.name": "Ebonite Sword",
       "tile.souffre_chest.name": "Souffre Chest",
