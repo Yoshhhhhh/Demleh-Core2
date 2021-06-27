@@ -2890,6 +2890,91 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fauxstick"
+    },
+    {
+      "name": "CaveBlock",
+      "type": "block",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave_block"
+    },
+    {
+      "name": "Caveblock2",
+      "type": "block",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "caveblock_2"
+    },
+    {
+      "name": "CaveBlockProcedure",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave_block_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CaveBlockProcedure2",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave_block_procedure_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CaveBlockCraft",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave_block_craft"
     }
   ],
   "variable_elements": [],
@@ -2980,8 +3065,8 @@
       "item.record.yg.desc": ":)",
       "item.demlehcore.ebonite_axe": "Ebonite axe",
       "item.bigdynamiteentity.name": "Big Dynamite Entity",
-      "block.demlehcore.demleh_machine": "Demleh Machine",
       "item.epee_interdite.name": "Épée Interdite",
+      "block.demlehcore.demleh_machine": "Demleh Machine",
       "item.radar_core.name": "Radar Core",
       "block.demlehcore.souffre": "Souffre Ore",
       "item.faux_interdite.name": "Faux Interdite",
@@ -2997,8 +3082,8 @@
       "block.demlehcore.blackobsiphase2": "Black Obsi Phase2",
       "tile.ebocraftingtable.name": "Ebo Crafting Table",
       "tile.blackobsiphase3.name": "Black Obsi Phase3",
-      "block.demlehcore.feeder": "Feeder",
       "item.demlehcore.hamburger": "Hamburger",
+      "block.demlehcore.feeder": "Feeder",
       "item.ebonitearmorlegs.name": "Ebonite Leggings",
       "item.ebonite_axe.name": "Ebonite axe",
       "tile.amazoniteore.name": "Amazonite Ore",
@@ -3152,6 +3237,7 @@
       "item.ebonite_smelt_hammer.name": "Ebonite Smelt Hammer",
       "item.demlehcore.souffre_axe": "Souffre axe",
       "item.demlehcore.amazonitearmorbody": "Amazonite Chestplate",
+      "tile.caveblock_2.name": "Cave Block",
       "item.magmaapple.name": "Magma Apple",
       "item.demlehcore.minium_axe": "Minium axe",
       "item.demlehcore.bigdynamiteentity": "Big Dynamite Entity",
@@ -3190,6 +3276,7 @@
       "block.demlehcore.xp_bush_stage_0": "XP Bush",
       "tile.rainbowore.name": "Rainbow Ore",
       "item.faux_interdite_4.name": "Faux Interdite phase 4",
+      "tile.cave_block.name": "Cave Block",
       "item.magma_helmetboots.name": "Magma Helmet Boots",
       "itemGroup.tabdemleh": "Demleh",
       "item.demlehcore.souffrearmor_boots": "Souffre Boots",
