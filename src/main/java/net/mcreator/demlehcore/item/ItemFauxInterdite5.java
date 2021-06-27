@@ -18,8 +18,7 @@ import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-import net.mcreator.demlehcore.procedure.ProcedureFauxInterditeProcedure;
-import net.mcreator.demlehcore.creativetab.TabDemleh;
+import net.mcreator.demlehcore.procedure.ProcedureFauxInterditeProcedure5;
 import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 
 import java.util.Set;
@@ -29,16 +28,16 @@ import java.util.HashMap;
 import com.google.common.collect.Multimap;
 
 @ElementsDemlehcoreMod.ModElement.Tag
-public class ItemFauxInterdite extends ElementsDemlehcoreMod.ModElement {
-	@GameRegistry.ObjectHolder("demlehcore:faux_interdite")
+public class ItemFauxInterdite5 extends ElementsDemlehcoreMod.ModElement {
+	@GameRegistry.ObjectHolder("demlehcore:faux_interdite_5")
 	public static final Item block = null;
-	public ItemFauxInterdite(ElementsDemlehcoreMod instance) {
-		super(instance, 224);
+	public ItemFauxInterdite5(ElementsDemlehcoreMod instance) {
+		super(instance, 237);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("FAUX_INTERDITE", 1, 1, 4f, -2f, 3)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("FAUX_INTERDITE_5", 1, 1, 4f, -2f, 3)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -68,16 +67,17 @@ public class ItemFauxInterdite extends ElementsDemlehcoreMod.ModElement {
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					$_dependencies.put("sourceentity", sourceentity);
-					ProcedureFauxInterditeProcedure.executeProcedure($_dependencies);
+					ProcedureFauxInterditeProcedure5.executeProcedure($_dependencies);
+
 				}
 				return true;
 			}
-		}.setUnlocalizedName("faux_interdite").setRegistryName("faux_interdite").setCreativeTab(TabDemleh.tab));
+		}.setUnlocalizedName("faux_interdite_5").setRegistryName("faux_interdite_5").setCreativeTab(null));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("demlehcore:faux_interdite", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("demlehcore:faux_interdite_5", "inventory"));
 	}
 }

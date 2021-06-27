@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 5,
-    "GUI": 8
+    "GUI": 8,
+    "ENTITY": 5
   },
   "mod_elements": [
     {
@@ -2716,6 +2716,162 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fragment_5"
+    },
+    {
+      "name": "FauxInterdite2",
+      "type": "tool",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "faux_interdite_2"
+    },
+    {
+      "name": "FauxInterditeProcedure2",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faux_interdite_procedure_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FauxInterdite3",
+      "type": "tool",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "faux_interdite_3"
+    },
+    {
+      "name": "FauxInterditeProcedure3",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faux_interdite_procedure_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FauxInterdite4",
+      "type": "tool",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "faux_interdite_4"
+    },
+    {
+      "name": "FauxInterditeProcedure4",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faux_interdite_procedure_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FauxInterdite5",
+      "type": "tool",
+      "sortid": 237,
+      "compiles": false,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "faux_interdite_5"
+    },
+    {
+      "name": "FauxInterditeProcedure5",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faux_interdite_procedure_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FauxInterdite2Craft",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faux_interdite_2_craft"
+    },
+    {
+      "name": "FauxInterdite3Craft",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faux_interdite_3_craft"
+    },
+    {
+      "name": "FauxInterdite4Craft",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faux_interdite_4_craft"
+    },
+    {
+      "name": "FauxInterdite5Craft",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faux_interdite_5_craft"
     }
   ],
   "variable_elements": [],
@@ -2852,7 +3008,8 @@
       "item.miniumcookie.name": "Minium Cookie",
       "item.demlehcore.souffrearmorlegs": "Souffre Leggings",
       "advancements.souffre_first_time.title": "Souffre found!",
-      "item.fragment.name": "Fragment",
+      "item.faux_interdite_2.name": "Faux interdite phase 2",
+      "item.fragment.name": "Fragment de faux interdite",
       "item.demlehcore.magma_helmet_leggings": "Magma Helmet Leggings",
       "item.demlehcore.bigdynamite": "Big Dynamite",
       "tile.xp_bush_stage_0.name": "XP Bush",
@@ -2971,6 +3128,7 @@
       "item.minium_hammer.name": "Minium Hammer",
       "item.ebonite_collector.name": "Ebonite Collector",
       "item.demlehcore.amazonitearmorlegs": "Amazonite Leggings",
+      "item.faux_interdite_5.name": "Faux Interdite 5",
       "item.ebonite_smelt_hammer.name": "Ebonite Smelt Hammer",
       "item.demlehcore.souffre_axe": "Souffre axe",
       "item.demlehcore.amazonitearmorbody": "Amazonite Chestplate",
@@ -3011,6 +3169,7 @@
       "item.demlehcore.magmanugget": "Magma Nugget",
       "block.demlehcore.xp_bush_stage_0": "XP Bush",
       "tile.rainbowore.name": "Rainbow Ore",
+      "item.faux_interdite_4.name": "Faux Interdite phase 4",
       "item.magma_helmetboots.name": "Magma Helmet Boots",
       "itemGroup.tabdemleh": "Demleh",
       "item.demlehcore.souffrearmor_boots": "Souffre Boots",
@@ -3020,6 +3179,7 @@
       "item.souffrearmorbody.name": "Souffre Chestplate",
       "item.demlehcore.souffresword": "Souffre Sword",
       "item.demlehcore.miniumarmor_chestplate": "Minium Chestplate",
+      "item.faux_interdite_3.name": "Faux Interdite phase 3",
       "item.miniumarmorhelmet.name": "Minium Helmet",
       "item.amazoniteapple.name": "Amazonite Apple",
       "item.demlehcore.smelt_modifier": "Smelt Modifier",

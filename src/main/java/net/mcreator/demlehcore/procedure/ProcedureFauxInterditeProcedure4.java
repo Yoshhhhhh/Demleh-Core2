@@ -7,24 +7,24 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.demlehcore.item.ItemFragment;
+import net.mcreator.demlehcore.item.ItemFragment5;
 import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 
 import java.util.Map;
 
 @ElementsDemlehcoreMod.ModElement.Tag
-public class ProcedureFauxInterditeProcedure extends ElementsDemlehcoreMod.ModElement {
-	public ProcedureFauxInterditeProcedure(ElementsDemlehcoreMod instance) {
-		super(instance, 225);
+public class ProcedureFauxInterditeProcedure4 extends ElementsDemlehcoreMod.ModElement {
+	public ProcedureFauxInterditeProcedure4(ElementsDemlehcoreMod instance) {
+		super(instance, 236);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure FauxInterditeProcedure!");
+			System.err.println("Failed to load dependency entity for procedure FauxInterditeProcedure4!");
 			return;
 		}
 		if (dependencies.get("sourceentity") == null) {
-			System.err.println("Failed to load dependency sourceentity for procedure FauxInterditeProcedure!");
+			System.err.println("Failed to load dependency sourceentity for procedure FauxInterditeProcedure4!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -41,7 +41,7 @@ public class ProcedureFauxInterditeProcedure extends ElementsDemlehcoreMod.ModEl
 							.getItem(),
 					-1, (int) 1, null);
 		if (sourceentity instanceof EntityLivingBase) {
-			ItemStack _setstack = new ItemStack(ItemFragment.block, (int) (1));
+			ItemStack _setstack = new ItemStack(ItemFragment5.block, (int) (1));
 			_setstack.setCount(2);
 			((EntityLivingBase) sourceentity).setHeldItem(EnumHand.MAIN_HAND, _setstack);
 			if (sourceentity instanceof EntityPlayerMP)

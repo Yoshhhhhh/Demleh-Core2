@@ -1,30 +1,27 @@
 package net.mcreator.demlehcore.procedure;
 
-import net.minecraft.util.EnumHand;
 import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.demlehcore.item.ItemFragment;
 import net.mcreator.demlehcore.ElementsDemlehcoreMod;
 
 import java.util.Map;
 
 @ElementsDemlehcoreMod.ModElement.Tag
-public class ProcedureFauxInterditeProcedure extends ElementsDemlehcoreMod.ModElement {
-	public ProcedureFauxInterditeProcedure(ElementsDemlehcoreMod instance) {
-		super(instance, 225);
+public class ProcedureFauxInterditeProcedure5 extends ElementsDemlehcoreMod.ModElement {
+	public ProcedureFauxInterditeProcedure5(ElementsDemlehcoreMod instance) {
+		super(instance, 238);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure FauxInterditeProcedure!");
+			System.err.println("Failed to load dependency entity for procedure FauxInterditeProcedure5!");
 			return;
 		}
 		if (dependencies.get("sourceentity") == null) {
-			System.err.println("Failed to load dependency sourceentity for procedure FauxInterditeProcedure!");
+			System.err.println("Failed to load dependency sourceentity for procedure FauxInterditeProcedure5!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -40,12 +37,5 @@ public class ProcedureFauxInterditeProcedure extends ElementsDemlehcoreMod.ModEl
 					((sourceentity instanceof EntityLivingBase) ? ((EntityLivingBase) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY)
 							.getItem(),
 					-1, (int) 1, null);
-		if (sourceentity instanceof EntityLivingBase) {
-			ItemStack _setstack = new ItemStack(ItemFragment.block, (int) (1));
-			_setstack.setCount(2);
-			((EntityLivingBase) sourceentity).setHeldItem(EnumHand.MAIN_HAND, _setstack);
-			if (sourceentity instanceof EntityPlayerMP)
-				((EntityPlayerMP) sourceentity).inventory.markDirty();
-		}
 	}
 }

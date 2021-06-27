@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "fragment",
     "customModelName": "Normal",
-    "name": "Fragment",
+    "name": "Fragment de faux interdite",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Demleh"
     },
     "stackSize": 64,
     "enchantability": 0,
