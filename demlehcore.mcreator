@@ -2881,6 +2881,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "faux_head"
+    },
+    {
+      "name": "Fauxstick",
+      "type": "item",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fauxstick"
     }
   ],
   "variable_elements": [],
@@ -2971,8 +2980,8 @@
       "item.record.yg.desc": ":)",
       "item.demlehcore.ebonite_axe": "Ebonite axe",
       "item.bigdynamiteentity.name": "Big Dynamite Entity",
-      "block.demlehcore.demleh_machine": "Demleh Machine",
       "item.epee_interdite.name": "Épée Interdite",
+      "block.demlehcore.demleh_machine": "Demleh Machine",
       "item.radar_core.name": "Radar Core",
       "block.demlehcore.souffre": "Souffre Ore",
       "item.faux_interdite.name": "Faux Interdite",
@@ -2988,8 +2997,8 @@
       "block.demlehcore.blackobsiphase2": "Black Obsi Phase2",
       "tile.ebocraftingtable.name": "Ebo Crafting Table",
       "tile.blackobsiphase3.name": "Black Obsi Phase3",
-      "block.demlehcore.feeder": "Feeder",
       "item.demlehcore.hamburger": "Hamburger",
+      "block.demlehcore.feeder": "Feeder",
       "item.ebonitearmorlegs.name": "Ebonite Leggings",
       "item.ebonite_axe.name": "Ebonite axe",
       "tile.amazoniteore.name": "Amazonite Ore",
@@ -3109,6 +3118,7 @@
       "item.demlehcore.amazonitepickaxe": "Amazonite pickaxe",
       "item.demlehcore.miniumarmor_leggings": "Minium Leggings",
       "item.demlehcore.souffrearmorhelmet": "Souffre Helmet",
+      "item.fauxstick.name": "Fauxstick",
       "item.demlehcore.ebonite_collector": "Ebonite Collector",
       "item.demlehcore.magma_helmet_chestplate": "Magma Helmet Body",
       "item.miniumarmorboots.name": "Minium Boots",
