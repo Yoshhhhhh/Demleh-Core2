@@ -1,5 +1,6 @@
 package net.mcreator.demlehcore.procedure;
 
+import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.EnumHand;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -40,12 +41,21 @@ public class ProcedureFauxInterditeProcedure3 extends ElementsDemlehcoreMod.ModE
 					((sourceentity instanceof EntityLivingBase) ? ((EntityLivingBase) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY)
 							.getItem(),
 					-1, (int) 1, null);
-		if (sourceentity instanceof EntityLivingBase) {
-			ItemStack _setstack = new ItemStack(ItemFragment4.block, (int) (1));
-			_setstack.setCount(2);
-			((EntityLivingBase) sourceentity).setHeldItem(EnumHand.MAIN_HAND, _setstack);
-			if (sourceentity instanceof EntityPlayerMP)
-				((EntityPlayerMP) sourceentity).inventory.markDirty();
+		if ((((sourceentity instanceof EntityLivingBase) ? ((EntityLivingBase) sourceentity).getHeldItemOffhand() : ItemStack.EMPTY)
+				.getItem() == (ItemStack.EMPTY).getItem())) {
+			if (sourceentity instanceof EntityLivingBase) {
+				ItemStack _setstack = new ItemStack(ItemFragment4.block, (int) (1));
+				_setstack.setCount(2);
+				((EntityLivingBase) sourceentity).setHeldItem(EnumHand.OFF_HAND, _setstack);
+				if (sourceentity instanceof EntityPlayerMP)
+					((EntityPlayerMP) sourceentity).inventory.markDirty();
+			}
+		} else {
+			if (entity instanceof EntityPlayer && !entity.world.isRemote) {
+				((EntityPlayer) entity).sendStatusMessage(new TextComponentString(
+						"Malheureusement, l'utilisation de la faux avec un item dans la main gauche fais en sorte que tu ne re\u00E7ois pas un item n\u00E9cessaire. Pour l'instant, va voir dash, mais pour le futur, ne mets pas d'item dans ta main gauche en utilisant la faux!"),
+						(false));
+			}
 		}
 	}
 }

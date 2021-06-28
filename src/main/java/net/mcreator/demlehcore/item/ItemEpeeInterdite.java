@@ -76,7 +76,7 @@ public class ItemEpeeInterdite extends ElementsDemlehcoreMod.ModElement {
 	public static class RangedItem extends Item {
 		public RangedItem() {
 			super();
-			setMaxDamage(2000);
+			setMaxDamage(1500);
 			setFull3D();
 			setUnlocalizedName("epee_interdite");
 			setRegistryName("epee_interdite");

@@ -15,7 +15,7 @@
       "value": ""
     },
     "shootConstantly": false,
-    "usageCount": 2000,
+    "usageCount": 1500,
     "actionSound": {
       "value": "item.firecharge.use"
     },
